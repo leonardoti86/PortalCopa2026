@@ -1,0 +1,28 @@
+<div class="jg-filtro">
+    <label for="jg-filtro-grupo" class="form-label fw-semibold">Filtrar por grupo</label>
+    <select id="jg-filtro-grupo" class="form-select" style="max-width: 220px;" value="@GrupoSelecionado" @onchange="OnGrupoChanged">
+        <option value="">Todos os grupos</option>
+        @foreach (var grupo in Grupos)
+        {
+            <option value="@grupo">Grupo @grupo</option>
+        }
+    </select>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<string> Grupos { get; set; } = Array.Empty<string>();
+
+    [Parameter]
+    public string? GrupoSelecionado { get; set; }
+
+    [Parameter]
+    public EventCallback<string?> GrupoSelecionadoChanged { get; set; }
+
+    private async Task OnGrupoChanged(ChangeEventArgs e)
+    {
+        var valor = e.Value?.ToString();
+        var novoGrupo = string.IsNullOrEmpty(valor) ? null : valor;
+        await GrupoSelecionadoChanged.InvokeAsync(novoGrupo);
+    }
+}

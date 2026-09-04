@@ -1,0 +1,54 @@
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Próximos jogos</h2>
+            <a href="/jogos">Ver todos →</a>
+        </div>
+
+        @if (Jogos.Count == 0)
+        {
+            <div class="lp-empty-state">
+                <p>Não há próximos jogos no momento.</p>
+            </div>
+        }
+        else
+        {
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                @foreach (var jogo in Jogos)
+                {
+                    <div class="col">
+                        <div class="lp-match-card">
+                            <div class="lp-match-card__meta">
+                                <span>@jogo.Data.ToString("dd/MM") · @jogo.Horario.ToString("HH:mm")</span>
+                                @if (jogo.Grupo is not null)
+                                {
+                                    <span>Grupo @jogo.Grupo</span>
+                                }
+                            </div>
+                            <div class="lp-match-card__teams">
+                                <div class="lp-match-team">
+                                    <img class="lp-match-team__flag" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@jogo.CodigoMandante" alt="Bandeira de @jogo.SelecaoMandante" loading="lazy" onerror="this.style.visibility='hidden'" />
+                                    <span class="lp-match-team__name">@jogo.SelecaoMandante</span>
+                                </div>
+                                <span class="lp-match-card__vs">×</span>
+                                <div class="lp-match-team lp-match-team--away">
+                                    <img class="lp-match-team__flag" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@jogo.CodigoVisitante" alt="Bandeira de @jogo.SelecaoVisitante" loading="lazy" onerror="this.style.visibility='hidden'" />
+                                    <span class="lp-match-team__name">@jogo.SelecaoVisitante</span>
+                                </div>
+                            </div>
+                            <div class="lp-match-card__footer">
+                                <span>@jogo.Estadio</span>
+                                <span>@jogo.Cidade</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</section>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<ProximoJogoDto> Jogos { get; set; } = Array.Empty<ProximoJogoDto>();
+}

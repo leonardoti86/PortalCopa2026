@@ -1,0 +1,105 @@
+## Este .gitignore funciona como um filtro, permitindo que apenas os
+## arquivos importantes do projeto sejam versionados.
+
+#################
+# Build (.NET)  #
+#################
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+##########################
+# Visual Studio / .vs    #
+##########################
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+#################################
+# Artefatos de build e publish  #
+#################################
+[Bb]uild/
+[Bb]uilds/
+[Pp]ublish/
+*.publish.xml
+*.pubxml
+*.pubxml.user
+*.azurePubxml
+PublishScripts/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.appx
+*.appxbundle
+*.appxupload
+
+##########################
+# Rider / VS Code        #
+##########################
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.DotSettings.user
+
+##################################
+# Caches e arquivos temporários  #
+##################################
+*.cache
+*.tmp
+*.temp
+*~
+~$*
+*.swp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Tt]est[Rr]esult*/
+[Cc]overage/
+*.trx
+*.coverage
+*.coveragexml
+BenchmarkDotNet.Artifacts/
+
+##################
+# Logs           #
+##################
+*.log
+logs/
+
+##########################
+# SQLite (arquivos temp) #
+##########################
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+
+##################################
+# OpenSpec (arquivos gerados)    #
+##################################
+openspec/**/.cache/
+openspec/**/*.tmp
+openspec/.openspec-cache/
+
+##################################
+# Claude Code (arquivos locais)  #
+##################################
+.claude/settings.local.json
+.claude/*.log
+.claude/cache/
+.claude/**/*.tmp

@@ -1,0 +1,1474 @@
+[
+  {
+    "id": "grp-1",
+    "phase": "Primeira Fase",
+    "group": "A",
+    "date": "2026-06-11",
+    "time": "16:00",
+    "home": "México",
+    "away": "África do Sul",
+    "city": "Cidade do México",
+    "stadium": "Estádio Azteca",
+    "placeholder": false
+  },
+  {
+    "id": "grp-2",
+    "phase": "Primeira Fase",
+    "group": "A",
+    "date": "2026-06-11",
+    "time": "23:00",
+    "home": "República da Coreia",
+    "away": "Tchéquia",
+    "city": "Guadalajara",
+    "stadium": "Estadio Akron",
+    "placeholder": false
+  },
+  {
+    "id": "grp-3",
+    "phase": "Primeira Fase",
+    "group": "B",
+    "date": "2026-06-12",
+    "time": "16:00",
+    "home": "Canadá",
+    "away": "Bósnia e Herzegovina",
+    "city": "Toronto",
+    "stadium": "BMO Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-4",
+    "phase": "Primeira Fase",
+    "group": "D",
+    "date": "2026-06-12",
+    "time": "22:00",
+    "home": "Estados Unidos",
+    "away": "Paraguai",
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-5",
+    "phase": "Primeira Fase",
+    "group": "B",
+    "date": "2026-06-13",
+    "time": "16:00",
+    "home": "Catar",
+    "away": "Suíça",
+    "city": "Santa Clara",
+    "stadium": "Levi's Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-6",
+    "phase": "Primeira Fase",
+    "group": "C",
+    "date": "2026-06-13",
+    "time": "19:00",
+    "home": "Brasil",
+    "away": "Marrocos",
+    "city": "Nova Iorque",
+    "stadium": "MetLife Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-7",
+    "phase": "Primeira Fase",
+    "group": "C",
+    "date": "2026-06-13",
+    "time": "22:00",
+    "home": "Haiti",
+    "away": "Escócia",
+    "city": "Boston",
+    "stadium": "Gillette Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-8",
+    "phase": "Primeira Fase",
+    "group": "D",
+    "date": "2026-06-14",
+    "time": "01:00",
+    "home": "Austrália",
+    "away": "Turquia",
+    "city": "Vancouver",
+    "stadium": "BC Place",
+    "placeholder": false
+  },
+  {
+    "id": "grp-9",
+    "phase": "Primeira Fase",
+    "group": "E",
+    "date": "2026-06-14",
+    "time": "14:00",
+    "home": "Alemanha",
+    "away": "Curaçao",
+    "city": "Houston",
+    "stadium": "NRG Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-10",
+    "phase": "Primeira Fase",
+    "group": "F",
+    "date": "2026-06-14",
+    "time": "17:00",
+    "home": "Holanda",
+    "away": "Japão",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-11",
+    "phase": "Primeira Fase",
+    "group": "E",
+    "date": "2026-06-14",
+    "time": "20:00",
+    "home": "Côte d'Ivoire",
+    "away": "Equador",
+    "city": "Filadélfia",
+    "stadium": "Lincoln Financial Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-12",
+    "phase": "Primeira Fase",
+    "group": "F",
+    "date": "2026-06-14",
+    "time": "23:00",
+    "home": "Suécia",
+    "away": "Tunísia",
+    "city": "Monterrey",
+    "stadium": "Estadio BBVA",
+    "placeholder": false
+  },
+  {
+    "id": "grp-13",
+    "phase": "Primeira Fase",
+    "group": "H",
+    "date": "2026-06-15",
+    "time": "13:00",
+    "home": "Espanha",
+    "away": "Cabo Verde",
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-14",
+    "phase": "Primeira Fase",
+    "group": "G",
+    "date": "2026-06-15",
+    "time": "16:00",
+    "home": "Bélgica",
+    "away": "Egito",
+    "city": "Seattle",
+    "stadium": "Lumen Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-15",
+    "phase": "Primeira Fase",
+    "group": "H",
+    "date": "2026-06-15",
+    "time": "19:00",
+    "home": "Arábia Saudita",
+    "away": "Uruguai",
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-16",
+    "phase": "Primeira Fase",
+    "group": "G",
+    "date": "2026-06-15",
+    "time": "22:00",
+    "home": "República Islâmica do Irã",
+    "away": "Nova Zelândia",
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-17",
+    "phase": "Primeira Fase",
+    "group": "I",
+    "date": "2026-06-16",
+    "time": "16:00",
+    "home": "França",
+    "away": "Senegal",
+    "city": "Nova Iorque",
+    "stadium": "MetLife Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-18",
+    "phase": "Primeira Fase",
+    "group": "I",
+    "date": "2026-06-16",
+    "time": "19:00",
+    "home": "Iraque",
+    "away": "Noruega",
+    "city": "Boston",
+    "stadium": "Gillette Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-19",
+    "phase": "Primeira Fase",
+    "group": "J",
+    "date": "2026-06-16",
+    "time": "22:00",
+    "home": "Argentina",
+    "away": "Argélia",
+    "city": "Kansas City",
+    "stadium": "Arrowhead Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-20",
+    "phase": "Primeira Fase",
+    "group": "J",
+    "date": "2026-06-17",
+    "time": "01:00",
+    "home": "Áustria",
+    "away": "Jordânia",
+    "city": "Santa Clara",
+    "stadium": "Levi's Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-21",
+    "phase": "Primeira Fase",
+    "group": "K",
+    "date": "2026-06-17",
+    "time": "14:00",
+    "home": "Portugal",
+    "away": "República Democrática do Congo",
+    "city": "Houston",
+    "stadium": "NRG Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-22",
+    "phase": "Primeira Fase",
+    "group": "L",
+    "date": "2026-06-17",
+    "time": "17:00",
+    "home": "Inglaterra",
+    "away": "Croácia",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-23",
+    "phase": "Primeira Fase",
+    "group": "L",
+    "date": "2026-06-17",
+    "time": "20:00",
+    "home": "Gana",
+    "away": "Panamá",
+    "city": "Toronto",
+    "stadium": "BMO Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-24",
+    "phase": "Primeira Fase",
+    "group": "K",
+    "date": "2026-06-17",
+    "time": "23:00",
+    "home": "Uzbequistão",
+    "away": "Colômbia",
+    "city": "Cidade do México",
+    "stadium": "Estádio Azteca",
+    "placeholder": false
+  },
+  {
+    "id": "grp-25",
+    "phase": "Primeira Fase",
+    "group": "A",
+    "date": "2026-06-18",
+    "time": "13:00",
+    "home": "Tchéquia",
+    "away": "África do Sul",
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-26",
+    "phase": "Primeira Fase",
+    "group": "B",
+    "date": "2026-06-18",
+    "time": "16:00",
+    "home": "Suíça",
+    "away": "Bósnia e Herzegovina",
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-27",
+    "phase": "Primeira Fase",
+    "group": "B",
+    "date": "2026-06-18",
+    "time": "19:00",
+    "home": "Canadá",
+    "away": "Catar",
+    "city": "Vancouver",
+    "stadium": "BC Place",
+    "placeholder": false
+  },
+  {
+    "id": "grp-28",
+    "phase": "Primeira Fase",
+    "group": "A",
+    "date": "2026-06-18",
+    "time": "22:00",
+    "home": "México",
+    "away": "República da Coreia",
+    "city": "Guadalajara",
+    "stadium": "Estadio Akron",
+    "placeholder": false
+  },
+  {
+    "id": "grp-29",
+    "phase": "Primeira Fase",
+    "group": "D",
+    "date": "2026-06-19",
+    "time": "16:00",
+    "home": "Estados Unidos",
+    "away": "Austrália",
+    "city": "Seattle",
+    "stadium": "Lumen Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-30",
+    "phase": "Primeira Fase",
+    "group": "C",
+    "date": "2026-06-19",
+    "time": "19:00",
+    "home": "Escócia",
+    "away": "Marrocos",
+    "city": "Boston",
+    "stadium": "Gillette Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-31",
+    "phase": "Primeira Fase",
+    "group": "C",
+    "date": "2026-06-19",
+    "time": "21:30",
+    "home": "Brasil",
+    "away": "Haiti",
+    "city": "Filadélfia",
+    "stadium": "Lincoln Financial Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-32",
+    "phase": "Primeira Fase",
+    "group": "D",
+    "date": "2026-06-20",
+    "time": "00:00",
+    "home": "Turquia",
+    "away": "Paraguai",
+    "city": "Santa Clara",
+    "stadium": "Levi's Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-33",
+    "phase": "Primeira Fase",
+    "group": "F",
+    "date": "2026-06-20",
+    "time": "14:00",
+    "home": "Holanda",
+    "away": "Suécia",
+    "city": "Houston",
+    "stadium": "NRG Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-34",
+    "phase": "Primeira Fase",
+    "group": "E",
+    "date": "2026-06-20",
+    "time": "17:00",
+    "home": "Alemanha",
+    "away": "Côte d'Ivoire",
+    "city": "Toronto",
+    "stadium": "BMO Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-35",
+    "phase": "Primeira Fase",
+    "group": "E",
+    "date": "2026-06-20",
+    "time": "21:00",
+    "home": "Equador",
+    "away": "Curaçao",
+    "city": "Kansas City",
+    "stadium": "Arrowhead Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-36",
+    "phase": "Primeira Fase",
+    "group": "F",
+    "date": "2026-06-21",
+    "time": "01:00",
+    "home": "Tunísia",
+    "away": "Japão",
+    "city": "Monterrey",
+    "stadium": "Estadio BBVA",
+    "placeholder": false
+  },
+  {
+    "id": "grp-37",
+    "phase": "Primeira Fase",
+    "group": "H",
+    "date": "2026-06-21",
+    "time": "13:00",
+    "home": "Espanha",
+    "away": "Arábia Saudita",
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-38",
+    "phase": "Primeira Fase",
+    "group": "G",
+    "date": "2026-06-21",
+    "time": "16:00",
+    "home": "Bélgica",
+    "away": "República Islâmica do Irã",
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-39",
+    "phase": "Primeira Fase",
+    "group": "H",
+    "date": "2026-06-21",
+    "time": "19:00",
+    "home": "Uruguai",
+    "away": "Cabo Verde",
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-40",
+    "phase": "Primeira Fase",
+    "group": "G",
+    "date": "2026-06-21",
+    "time": "22:00",
+    "home": "Nova Zelândia",
+    "away": "Egito",
+    "city": "Vancouver",
+    "stadium": "BC Place",
+    "placeholder": false
+  },
+  {
+    "id": "grp-41",
+    "phase": "Primeira Fase",
+    "group": "J",
+    "date": "2026-06-22",
+    "time": "14:00",
+    "home": "Argentina",
+    "away": "Áustria",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-42",
+    "phase": "Primeira Fase",
+    "group": "I",
+    "date": "2026-06-22",
+    "time": "18:00",
+    "home": "França",
+    "away": "Iraque",
+    "city": "Filadélfia",
+    "stadium": "Lincoln Financial Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-43",
+    "phase": "Primeira Fase",
+    "group": "I",
+    "date": "2026-06-22",
+    "time": "21:00",
+    "home": "Noruega",
+    "away": "Senegal",
+    "city": "Nova Iorque",
+    "stadium": "MetLife Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-44",
+    "phase": "Primeira Fase",
+    "group": "J",
+    "date": "2026-06-23",
+    "time": "00:00",
+    "home": "Jordânia",
+    "away": "Argélia",
+    "city": "Santa Clara",
+    "stadium": "Levi's Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-45",
+    "phase": "Primeira Fase",
+    "group": "K",
+    "date": "2026-06-23",
+    "time": "14:00",
+    "home": "Portugal",
+    "away": "Uzbequistão",
+    "city": "Houston",
+    "stadium": "NRG Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-46",
+    "phase": "Primeira Fase",
+    "group": "L",
+    "date": "2026-06-23",
+    "time": "17:00",
+    "home": "Inglaterra",
+    "away": "Gana",
+    "city": "Boston",
+    "stadium": "Gillette Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-47",
+    "phase": "Primeira Fase",
+    "group": "L",
+    "date": "2026-06-23",
+    "time": "20:00",
+    "home": "Panamá",
+    "away": "Croácia",
+    "city": "Toronto",
+    "stadium": "BMO Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-48",
+    "phase": "Primeira Fase",
+    "group": "K",
+    "date": "2026-06-23",
+    "time": "23:00",
+    "home": "Colômbia",
+    "away": "República Democrática do Congo",
+    "city": "Guadalajara",
+    "stadium": "Estadio Akron",
+    "placeholder": false
+  },
+  {
+    "id": "grp-49",
+    "phase": "Primeira Fase",
+    "group": "B",
+    "date": "2026-06-24",
+    "time": "16:00",
+    "home": "Suíça",
+    "away": "Canadá",
+    "city": "Vancouver",
+    "stadium": "BC Place",
+    "placeholder": false
+  },
+  {
+    "id": "grp-50",
+    "phase": "Primeira Fase",
+    "group": "B",
+    "date": "2026-06-24",
+    "time": "16:00",
+    "home": "Bósnia e Herzegovina",
+    "away": "Catar",
+    "city": "Seattle",
+    "stadium": "Lumen Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-51",
+    "phase": "Primeira Fase",
+    "group": "C",
+    "date": "2026-06-24",
+    "time": "19:00",
+    "home": "Escócia",
+    "away": "Brasil",
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-52",
+    "phase": "Primeira Fase",
+    "group": "C",
+    "date": "2026-06-24",
+    "time": "19:00",
+    "home": "Marrocos",
+    "away": "Haiti",
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-53",
+    "phase": "Primeira Fase",
+    "group": "A",
+    "date": "2026-06-24",
+    "time": "22:00",
+    "home": "Tchéquia",
+    "away": "México",
+    "city": "Cidade do México",
+    "stadium": "Estádio Azteca",
+    "placeholder": false
+  },
+  {
+    "id": "grp-54",
+    "phase": "Primeira Fase",
+    "group": "A",
+    "date": "2026-06-24",
+    "time": "22:00",
+    "home": "África do Sul",
+    "away": "República da Coreia",
+    "city": "Monterrey",
+    "stadium": "Estadio BBVA",
+    "placeholder": false
+  },
+  {
+    "id": "grp-55",
+    "phase": "Primeira Fase",
+    "group": "E",
+    "date": "2026-06-25",
+    "time": "17:00",
+    "home": "Equador",
+    "away": "Alemanha",
+    "city": "Nova Iorque",
+    "stadium": "MetLife Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-56",
+    "phase": "Primeira Fase",
+    "group": "E",
+    "date": "2026-06-25",
+    "time": "17:00",
+    "home": "Curaçao",
+    "away": "Côte d'Ivoire",
+    "city": "Filadélfia",
+    "stadium": "Lincoln Financial Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-57",
+    "phase": "Primeira Fase",
+    "group": "F",
+    "date": "2026-06-25",
+    "time": "20:00",
+    "home": "Japão",
+    "away": "Suécia",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-58",
+    "phase": "Primeira Fase",
+    "group": "F",
+    "date": "2026-06-25",
+    "time": "20:00",
+    "home": "Tunísia",
+    "away": "Holanda",
+    "city": "Kansas City",
+    "stadium": "Arrowhead Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-59",
+    "phase": "Primeira Fase",
+    "group": "D",
+    "date": "2026-06-25",
+    "time": "23:00",
+    "home": "Turquia",
+    "away": "Estados Unidos",
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-60",
+    "phase": "Primeira Fase",
+    "group": "D",
+    "date": "2026-06-25",
+    "time": "23:00",
+    "home": "Paraguai",
+    "away": "Austrália",
+    "city": "Santa Clara",
+    "stadium": "Levi's Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-61",
+    "phase": "Primeira Fase",
+    "group": "I",
+    "date": "2026-06-26",
+    "time": "16:00",
+    "home": "Noruega",
+    "away": "França",
+    "city": "Boston",
+    "stadium": "Gillette Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-62",
+    "phase": "Primeira Fase",
+    "group": "I",
+    "date": "2026-06-26",
+    "time": "16:00",
+    "home": "Senegal",
+    "away": "Iraque",
+    "city": "Toronto",
+    "stadium": "BMO Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-63",
+    "phase": "Primeira Fase",
+    "group": "H",
+    "date": "2026-06-26",
+    "time": "21:00",
+    "home": "Cabo Verde",
+    "away": "Arábia Saudita",
+    "city": "Houston",
+    "stadium": "NRG Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-64",
+    "phase": "Primeira Fase",
+    "group": "H",
+    "date": "2026-06-26",
+    "time": "21:00",
+    "home": "Uruguai",
+    "away": "Espanha",
+    "city": "Guadalajara",
+    "stadium": "Estadio Akron",
+    "placeholder": false
+  },
+  {
+    "id": "grp-65",
+    "phase": "Primeira Fase",
+    "group": "G",
+    "date": "2026-06-27",
+    "time": "00:00",
+    "home": "Egito",
+    "away": "República Islâmica do Irã",
+    "city": "Seattle",
+    "stadium": "Lumen Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-66",
+    "phase": "Primeira Fase",
+    "group": "G",
+    "date": "2026-06-27",
+    "time": "00:00",
+    "home": "Nova Zelândia",
+    "away": "Bélgica",
+    "city": "Vancouver",
+    "stadium": "BC Place",
+    "placeholder": false
+  },
+  {
+    "id": "grp-67",
+    "phase": "Primeira Fase",
+    "group": "L",
+    "date": "2026-06-27",
+    "time": "18:00",
+    "home": "Panamá",
+    "away": "Inglaterra",
+    "city": "Nova Iorque",
+    "stadium": "MetLife Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-68",
+    "phase": "Primeira Fase",
+    "group": "L",
+    "date": "2026-06-27",
+    "time": "18:00",
+    "home": "Croácia",
+    "away": "Gana",
+    "city": "Filadélfia",
+    "stadium": "Lincoln Financial Field",
+    "placeholder": false
+  },
+  {
+    "id": "grp-69",
+    "phase": "Primeira Fase",
+    "group": "K",
+    "date": "2026-06-27",
+    "time": "20:30",
+    "home": "Colômbia",
+    "away": "Portugal",
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-70",
+    "phase": "Primeira Fase",
+    "group": "K",
+    "date": "2026-06-27",
+    "time": "20:30",
+    "home": "República Democrática do Congo",
+    "away": "Uzbequistão",
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-71",
+    "phase": "Primeira Fase",
+    "group": "J",
+    "date": "2026-06-27",
+    "time": "23:00",
+    "home": "Argélia",
+    "away": "Áustria",
+    "city": "Kansas City",
+    "stadium": "Arrowhead Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "grp-72",
+    "phase": "Primeira Fase",
+    "group": "J",
+    "date": "2026-06-27",
+    "time": "23:00",
+    "home": "Jordânia",
+    "away": "Argentina",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium",
+    "placeholder": false
+  },
+  {
+    "id": "r32-3",
+    "phase": "Segunda Fase",
+    "order": 3,
+    "date": "2026-06-28",
+    "time": "16:00",
+    "home": {
+      "type": "team",
+      "name": "África do Sul",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Canadá",
+      "placeholder": false
+    },
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "id": "r32-9",
+    "phase": "Segunda Fase",
+    "order": 9,
+    "date": "2026-06-29",
+    "time": "14:00",
+    "home": {
+      "type": "team",
+      "name": "Brasil",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Japão",
+      "placeholder": false
+    },
+    "city": "Houston",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "id": "r32-1",
+    "phase": "Segunda Fase",
+    "order": 1,
+    "date": "2026-06-29",
+    "time": "17:30",
+    "home": {
+      "type": "team",
+      "name": "Alemanha",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Paraguai",
+      "placeholder": false
+    },
+    "city": "Boston",
+    "stadium": "Gillette Stadium"
+  },
+  {
+    "id": "r32-4",
+    "phase": "Segunda Fase",
+    "order": 4,
+    "date": "2026-06-29",
+    "time": "22:00",
+    "home": {
+      "type": "team",
+      "name": "Holanda",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Marrocos",
+      "placeholder": false
+    },
+    "city": "Monterrey",
+    "stadium": "Estadio BBVA"
+  },
+  {
+    "id": "r32-10",
+    "phase": "Segunda Fase",
+    "order": 10,
+    "date": "2026-06-30",
+    "time": "14:00",
+    "home": {
+      "type": "team",
+      "name": "Côte d'Ivoire",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Noruega",
+      "placeholder": false
+    },
+    "city": "Dallas",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "r32-2",
+    "phase": "Segunda Fase",
+    "order": 2,
+    "date": "2026-06-30",
+    "time": "18:00",
+    "home": {
+      "type": "team",
+      "name": "França",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Suécia",
+      "placeholder": false
+    },
+    "city": "Nova York/Nova Jersey",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "r32-11",
+    "phase": "Segunda Fase",
+    "order": 11,
+    "date": "2026-06-30",
+    "time": "22:00",
+    "home": {
+      "type": "team",
+      "name": "México",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Equador",
+      "placeholder": false
+    },
+    "city": "Cidade do México",
+    "stadium": "Estádio Azteca"
+  },
+  {
+    "id": "r32-12",
+    "phase": "Segunda Fase",
+    "order": 12,
+    "date": "2026-07-01",
+    "time": "13:00",
+    "home": {
+      "type": "team",
+      "name": "Inglaterra",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "República Democrática do Congo",
+      "placeholder": false
+    },
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "id": "r32-8",
+    "phase": "Segunda Fase",
+    "order": 8,
+    "date": "2026-07-01",
+    "time": "17:00",
+    "home": {
+      "type": "team",
+      "name": "Bélgica",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Senegal",
+      "placeholder": false
+    },
+    "city": "Seattle",
+    "stadium": "Lumen Field"
+  },
+  {
+    "id": "r32-7",
+    "phase": "Segunda Fase",
+    "order": 7,
+    "date": "2026-07-01",
+    "time": "21:00",
+    "home": {
+      "type": "team",
+      "name": "Estados Unidos",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Bósnia",
+      "placeholder": false
+    },
+    "city": "Santa Clara",
+    "stadium": "Levi's Stadium"
+  },
+  {
+    "id": "r32-6",
+    "phase": "Segunda Fase",
+    "order": 6,
+    "date": "2026-07-02",
+    "time": "16:00",
+    "home": {
+      "type": "team",
+      "name": "Espanha",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Áustria",
+      "placeholder": false
+    },
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "id": "r32-5",
+    "phase": "Segunda Fase",
+    "order": 5,
+    "date": "2026-07-02",
+    "time": "20:00",
+    "home": {
+      "type": "team",
+      "name": "Portugal",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Croácia",
+      "placeholder": false
+    },
+    "city": "Toronto",
+    "stadium": "BMO Field"
+  },
+  {
+    "id": "r32-15",
+    "phase": "Segunda Fase",
+    "order": 15,
+    "date": "2026-07-03",
+    "time": "00:00",
+    "home": {
+      "type": "team",
+      "name": "Suíça",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Argélia",
+      "placeholder": false
+    },
+    "city": "Vancouver",
+    "stadium": "BC Place"
+  },
+  {
+    "id": "r32-14",
+    "phase": "Segunda Fase",
+    "order": 14,
+    "date": "2026-07-03",
+    "time": "15:00",
+    "home": {
+      "type": "team",
+      "name": "Austrália",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Egito",
+      "placeholder": false
+    },
+    "city": "Dallas",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "r32-13",
+    "phase": "Segunda Fase",
+    "order": 13,
+    "date": "2026-07-03",
+    "time": "19:00",
+    "home": {
+      "type": "team",
+      "name": "Argentina",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Cabo Verde",
+      "placeholder": false
+    },
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "id": "r32-16",
+    "phase": "Segunda Fase",
+    "order": 16,
+    "date": "2026-07-03",
+    "time": "22:30",
+    "home": {
+      "type": "team",
+      "name": "Colômbia",
+      "placeholder": false
+    },
+    "away": {
+      "type": "team",
+      "name": "Gana",
+      "placeholder": false
+    },
+    "city": "Kansas City",
+    "stadium": "Arrowhead Stadium"
+  },
+  {
+    "id": "r16-1",
+    "phase": "Oitavas",
+    "order": 1,
+    "date": "2026-07-04",
+    "time": "18:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-1",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-2",
+      "placeholder": true
+    },
+    "city": "Filadélfia",
+    "stadium": "Lincoln Financial Field"
+  },
+  {
+    "id": "r16-2",
+    "phase": "Oitavas",
+    "order": 2,
+    "date": "2026-07-04",
+    "time": "14:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-3",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-4",
+      "placeholder": true
+    },
+    "city": "Houston",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "id": "r16-3",
+    "phase": "Oitavas",
+    "order": 3,
+    "date": "2026-07-06",
+    "time": "16:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-5",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-6",
+      "placeholder": true
+    },
+    "city": "Dallas",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "r16-4",
+    "phase": "Oitavas",
+    "order": 4,
+    "date": "2026-07-06",
+    "time": "21:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-7",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-8",
+      "placeholder": true
+    },
+    "city": "Seattle Field",
+    "stadium": "Lumen Field"
+  },
+  {
+    "id": "r16-5",
+    "phase": "Oitavas",
+    "order": 5,
+    "date": "2026-07-05",
+    "time": "17:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-9",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-10",
+      "placeholder": true
+    },
+    "city": "Nova Jersey",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "r16-6",
+    "phase": "Oitavas",
+    "order": 6,
+    "date": "2026-07-05",
+    "time": "21:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-11",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-12",
+      "placeholder": true
+    },
+    "city": "Azteca",
+    "stadium": "Estádio Azteca"
+  },
+  {
+    "id": "r16-7",
+    "phase": "Oitavas",
+    "order": 7,
+    "date": "2026-07-07",
+    "time": "13:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-13",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-14",
+      "placeholder": true
+    },
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "id": "r16-8",
+    "phase": "Oitavas",
+    "order": 8,
+    "date": "2026-07-07",
+    "time": "17:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r32-15",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r32-16",
+      "placeholder": true
+    },
+    "city": "Vancouver Place",
+    "stadium": "BC Place"
+  },
+  {
+    "id": "qf-1",
+    "phase": "Quartas",
+    "order": 1,
+    "date": "2026-07-09",
+    "time": "17:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r16-1",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r16-2",
+      "placeholder": true
+    },
+    "city": "Boston",
+    "stadium": "Gillette Stadium"
+  },
+  {
+    "id": "qf-2",
+    "phase": "Quartas",
+    "order": 2,
+    "date": "2026-07-10",
+    "time": "16:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r16-3",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r16-4",
+      "placeholder": true
+    },
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "id": "qf-3",
+    "phase": "Quartas",
+    "order": 3,
+    "date": "2026-07-11",
+    "time": "18:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r16-5",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r16-6",
+      "placeholder": true
+    },
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "id": "qf-4",
+    "phase": "Quartas",
+    "order": 4,
+    "date": "2026-07-11",
+    "time": "22:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "r16-7",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "r16-8",
+      "placeholder": true
+    },
+    "city": "Kansas City",
+    "stadium": "Arrowhead Stadium"
+  },
+  {
+    "id": "sf-1",
+    "phase": "Semifinal",
+    "order": 1,
+    "date": "2026-07-14",
+    "time": "16:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "qf-1",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "qf-2",
+      "placeholder": true
+    },
+    "city": "Dallas",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "id": "sf-2",
+    "phase": "Semifinal",
+    "order": 2,
+    "date": "2026-07-15",
+    "time": "16:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "qf-3",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "qf-4",
+      "placeholder": true
+    },
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "id": "final-1",
+    "phase": "Final",
+    "order": 1,
+    "date": "2026-07-19",
+    "time": "16:00",
+    "home": {
+      "type": "winner",
+      "sourceId": "sf-1",
+      "placeholder": true
+    },
+    "away": {
+      "type": "winner",
+      "sourceId": "sf-2",
+      "placeholder": true
+    },
+    "city": "Nova York/Nova Jersey",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "id": "third-1",
+    "phase": "Terceiro Lugar",
+    "order": 1,
+    "date": "2026-07-18",
+    "time": "18:00",
+    "home": {
+      "type": "loser",
+      "sourceId": "sf-1",
+      "placeholder": true
+    },
+    "away": {
+      "type": "loser",
+      "sourceId": "sf-2",
+      "placeholder": true
+    },
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium"
+  }
+]

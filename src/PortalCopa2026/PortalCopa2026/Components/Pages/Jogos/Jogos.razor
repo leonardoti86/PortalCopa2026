@@ -1,0 +1,77 @@
+@page "/jogos"
+@rendermode InteractiveServer
+@inject IJogosService JogosService
+
+<PageTitle>Jogos — PortalCopa26</PageTitle>
+
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Jogos da fase de grupos</h2>
+            <a class="btn btn-outline-primary" href="/grupos">Ver Grupos</a>
+        </div>
+
+        <JogosFiltro Grupos="_grupos" GrupoSelecionado="_grupoSelecionado" GrupoSelecionadoChanged="OnGrupoSelecionadoChanged" />
+
+        @if (_jogosAgrupados.Count == 0)
+        {
+            <div class="lp-empty-state">
+                <p>Não há jogos para o filtro selecionado.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var grupoData in _jogosAgrupados)
+            {
+                <JogosDataHeader Data="grupoData.Data" />
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-4">
+                    @foreach (var jogo in grupoData.Jogos)
+                    {
+                        <div class="col">
+                            <JogoCard Jogo="jogo" />
+                        </div>
+                    }
+                </div>
+            }
+        }
+    </div>
+</section>
+
+@code {
+    private IReadOnlyList<JogoDto> _todosJogos = Array.Empty<JogoDto>();
+    private IReadOnlyList<string> _grupos = Array.Empty<string>();
+    private string? _grupoSelecionado;
+    private List<(DateOnly Data, List<JogoDto> Jogos)> _jogosAgrupados = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _todosJogos = await JogosService.ObterJogosFaseGruposAsync();
+        _grupos = _todosJogos
+            .Select(j => j.Grupo)
+            .Distinct()
+            .OrderBy(g => g, StringComparer.Ordinal)
+            .ToList();
+
+        AtualizarJogosAgrupados();
+    }
+
+    private async Task OnGrupoSelecionadoChanged(string? grupo)
+    {
+        _grupoSelecionado = grupo;
+        AtualizarJogosAgrupados();
+        await Task.CompletedTask;
+    }
+
+    private void AtualizarJogosAgrupados()
+    {
+        var jogosFiltrados = _grupoSelecionado is null
+            ? _todosJogos
+            : _todosJogos.Where(j => j.Grupo == _grupoSelecionado);
+
+        _jogosAgrupados = jogosFiltrados
+            .GroupBy(j => j.Data)
+            .Select(g => (g.Key, g.ToList()))
+            .ToList();
+    }
+}

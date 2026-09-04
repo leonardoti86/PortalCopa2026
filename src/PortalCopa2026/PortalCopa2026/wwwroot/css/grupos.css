@@ -1,0 +1,42 @@
+/* Estilos complementares da página de Grupos, sobre a base do Bootstrap 5.
+   Reaproveita os tokens de cor definidos em landing-page.css (--lp-color-*)
+   e as classes .sim-jogo/.sim-classificacao já usadas pelo Simulador. */
+
+.grupos-legenda__marcador {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.grupos-legenda__marcador--classificado {
+    background: var(--lp-color-primary);
+}
+
+.grupos-legenda__marcador--wildcard {
+    background: var(--lp-color-accent);
+}
+
+.grupos-tabs {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.grupo-bloco {
+    margin-bottom: 32px;
+}
+
+.grupo-jogo {
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 22px;
+}
+
+.grupo-jogo__meta {
+    position: absolute;
+    top: 6px;
+    left: 14px;
+    right: 14px;
+    font-size: 0.72rem;
+    color: var(--lp-color-text-muted);
+}

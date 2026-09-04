@@ -1,0 +1,20 @@
+/* Estilos complementares da página de Jogos, sobre a base do Bootstrap 5.
+   Reaproveita os tokens de cor definidos em landing-page.css (--lp-color-*). */
+
+.jg-filtro {
+    margin-bottom: 20px;
+}
+
+.jg-data-header {
+    color: var(--lp-color-navy);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--lp-color-border);
+}
+
+.jg-match-card {
+    height: 100%;
+}

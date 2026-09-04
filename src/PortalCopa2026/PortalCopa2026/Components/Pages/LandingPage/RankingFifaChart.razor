@@ -1,0 +1,62 @@
+<section class="lp-section lp-section--alt">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Ranking FIFA — Top 10</h2>
+            <a href="/ranking">Ver ranking completo →</a>
+        </div>
+
+        <div class="row g-4 align-items-start">
+            <div class="col-lg-6">
+                <div class="lp-table-wrap">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead>
+                            <tr>
+                                <th>Pos.</th>
+                                <th>Seleção</th>
+                                <th>Pontos</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Ranking)
+                            {
+                                <tr>
+                                    <td>@item.Posicao</td>
+                                    <td class="lp-team-cell">
+                                        <img class="lp-flag-sm" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@item.CodigoSelecao" alt="Bandeira de @item.Selecao" loading="lazy" onerror="this.style.visibility='hidden'" />
+                                        <span>@item.Selecao</span>
+                                    </td>
+                                    <td>@item.Pontos.ToString("F2")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="lp-chart-container">
+                    <ChartJs ElementId="ranking-fifa-chart"
+                             ChartType="bar"
+                             Labels="@_labels"
+                             Datasets="@_datasets" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<RankingItemDto> Ranking { get; set; } = Array.Empty<RankingItemDto>();
+
+    private IReadOnlyList<string> _labels = Array.Empty<string>();
+    private IReadOnlyList<ChartDataset> _datasets = Array.Empty<ChartDataset>();
+
+    protected override void OnParametersSet()
+    {
+        _labels = Ranking.Select(r => r.Selecao).ToList();
+        _datasets = new[]
+        {
+            new ChartDataset("Pontos", Ranking.Select(r => r.Pontos).ToList(), BackgroundColor: "#0a6e3a")
+        };
+    }
+}

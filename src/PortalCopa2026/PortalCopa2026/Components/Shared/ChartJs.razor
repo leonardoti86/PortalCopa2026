@@ -1,0 +1,91 @@
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+
+<canvas id="@ElementId"></canvas>
+
+@code {
+    [Parameter, EditorRequired]
+    public string ElementId { get; set; } = default!;
+
+    [Parameter]
+    public string ChartType { get; set; } = "bar";
+
+    [Parameter, EditorRequired]
+    public IReadOnlyList<string> Labels { get; set; } = Array.Empty<string>();
+
+    [Parameter, EditorRequired]
+    public IReadOnlyList<ChartDataset> Datasets { get; set; } = Array.Empty<ChartDataset>();
+
+    [Parameter]
+    public object? Options { get; set; }
+
+    private IJSObjectReference? _module;
+    private string? _lastConfigJson;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _module = await JS.InvokeAsync<IJSObjectReference>("import", "./js/chartInterop.js");
+        }
+
+        if (_module is null)
+        {
+            return;
+        }
+
+        var config = BuildConfig();
+        var configJson = System.Text.Json.JsonSerializer.Serialize(config);
+        if (!firstRender && configJson == _lastConfigJson)
+        {
+            return;
+        }
+
+        _lastConfigJson = configJson;
+
+        if (firstRender)
+        {
+            await _module.InvokeVoidAsync("initChart", ElementId, config);
+        }
+        else
+        {
+            await _module.InvokeVoidAsync("updateChart", ElementId, config);
+        }
+    }
+
+    private object BuildConfig() => new
+    {
+        type = ChartType,
+        data = new
+        {
+            labels = Labels,
+            datasets = Datasets.Select(d => new
+            {
+                label = d.Label,
+                data = d.Data,
+                backgroundColor = d.BackgroundColor,
+                borderColor = d.BorderColor,
+                borderWidth = d.BorderWidth
+            })
+        },
+        options = Options ?? new { responsive = true, maintainAspectRatio = false }
+    };
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_module is null)
+        {
+            return;
+        }
+
+        try
+        {
+            await _module.InvokeVoidAsync("destroyChart", ElementId);
+            await _module.DisposeAsync();
+        }
+        catch (JSDisconnectedException)
+        {
+            // O circuito Blazor já foi encerrado; não há JS runtime para liberar.
+        }
+    }
+}

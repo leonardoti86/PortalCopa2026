@@ -1,0 +1,128 @@
+/* Estilos complementares da página do Simulador, sobre a base do Bootstrap 5.
+   Reaproveita os tokens de cor definidos em landing-page.css (--lp-color-*). */
+
+.sim-tabs {
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.sim-grupo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+    .sim-grupo {
+        grid-template-columns: 1fr;
+    }
+}
+
+.sim-grupo__titulo {
+    color: var(--lp-color-navy);
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+
+.sim-jogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid var(--lp-color-border);
+    border-radius: var(--lp-radius);
+    box-shadow: var(--lp-shadow);
+    padding: 10px 14px;
+    margin-bottom: 10px;
+}
+
+.sim-jogo__time {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+}
+
+.sim-jogo__time--visitante {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.sim-jogo__bandeira {
+    width: 24px;
+    height: 17px;
+    object-fit: cover;
+    border-radius: 2px;
+    background: #eee;
+    flex-shrink: 0;
+}
+
+.sim-jogo__nome {
+    font-weight: 600;
+    font-size: 0.85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sim-jogo__placares {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.sim-jogo__input {
+    width: 3rem;
+    text-align: center;
+}
+
+.sim-jogo__separador {
+    color: var(--lp-color-text-muted);
+    font-weight: 600;
+}
+
+.sim-classificacao__bandeira {
+    width: 22px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 2px;
+    background: #eee;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.sim-linha-classificado {
+    background-color: rgba(10, 110, 58, 0.08);
+}
+
+.sim-linha-wildcard {
+    background-color: rgba(242, 183, 5, 0.15);
+}
+
+.sim-resumo {
+    margin-top: 12px;
+}
+
+.sim-resumo__progresso {
+    margin-bottom: 20px;
+}
+
+.sim-resumo__progresso-label {
+    display: block;
+    font-weight: 600;
+    color: var(--lp-color-navy);
+    margin-bottom: 6px;
+}
+
+.sim-resumo__progresso-texto {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--lp-color-text-muted);
+    margin-top: 4px;
+}

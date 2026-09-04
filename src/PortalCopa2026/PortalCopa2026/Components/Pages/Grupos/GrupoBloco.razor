@@ -1,0 +1,37 @@
+<div class="row g-4 grupo-bloco">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h3 class="h5 mb-0">Classificação — Grupo @Classificacao.Grupo</h3>
+                <a href="/simulador" class="btn btn-outline-primary btn-sm">Simular</a>
+            </div>
+            <div class="card-body p-0">
+                <ClassificacaoGrupo Classificacao="Classificacao" />
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="h5 mb-0">Jogos do Grupo @Classificacao.Grupo</h3>
+            </div>
+            <div class="card-body">
+                @foreach (var jogo in Jogos)
+                {
+                    <GrupoJogo @key="jogo.JogoId" Jogo="jogo" PlacarAlterado="PlacarAlterado" />
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<GrupoJogoDto> Jogos { get; set; } = Array.Empty<GrupoJogoDto>();
+
+    [Parameter, EditorRequired]
+    public ClassificacaoGrupoDto Classificacao { get; set; } = null!;
+
+    [Parameter]
+    public EventCallback<(int JogoId, int? PlacarMandante, int? PlacarVisitante)> PlacarAlterado { get; set; }
+}

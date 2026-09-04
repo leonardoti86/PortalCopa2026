@@ -1,0 +1,107 @@
+@page "/ranking"
+@rendermode InteractiveServer
+@inject IRankingService RankingService
+
+<PageTitle>Ranking FIFA — PortalCopa26</PageTitle>
+
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Ranking FIFA</h2>
+            <p>Posição, pontuação e grupo das seleções da Copa do Mundo FIFA 2026 no Ranking FIFA oficial.</p>
+        </div>
+
+        @if (_estado is null)
+        {
+            <div class="lp-empty-state">
+                <p>Carregando ranking...</p>
+            </div>
+        }
+        else
+        {
+            <RankingTop3 Top3="_top3" />
+
+            <FiltroSelecao Grupos="_grupos" Busca="@_busca" BuscaChanged="OnBuscaChangedAsync"
+                           GrupoSelecionado="@_grupoSelecionado" GrupoSelecionadoChanged="OnGrupoSelecionadoChangedAsync" />
+
+            @if (_restanteFiltrado.Count == 0)
+            {
+                <div class="lp-empty-state">
+                    <p>Nenhuma seleção encontrada.</p>
+                </div>
+            }
+            else
+            {
+                <RankingTabela Itens="_restanteFiltrado" />
+            }
+
+            @if (_estado.SemPosicao.Count > 0)
+            {
+                <section class="ranking-sem-posicao">
+                    <h3>Seleções sem posição no Ranking FIFA</h3>
+                    <p class="ranking-sem-posicao__nota">
+                        As seguintes seleções da Copa 2026 não possuem posição registrada na fonte oficial de Ranking FIFA:
+                    </p>
+                    <ul class="ranking-sem-posicao__lista">
+                        @foreach (var selecao in _estado.SemPosicao)
+                        {
+                            <li class="ranking-sem-posicao__item">
+                                <img class="ranking-sem-posicao__flag" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@selecao.SelecaoCodigo" alt="Bandeira de @selecao.SelecaoNome" loading="lazy" onerror="this.style.visibility='hidden'" />
+                                <span>@selecao.SelecaoNome</span>
+                                <span class="ranking-sem-posicao__grupo">Grupo @selecao.Grupo</span>
+                            </li>
+                        }
+                    </ul>
+                </section>
+            }
+        }
+    </div>
+</section>
+
+@code {
+    private RankingEstadoDto? _estado;
+    private IReadOnlyList<RankingPosicaoDto> _top3 = Array.Empty<RankingPosicaoDto>();
+    private IReadOnlyList<RankingPosicaoDto> _restante = Array.Empty<RankingPosicaoDto>();
+    private IReadOnlyList<RankingPosicaoDto> _restanteFiltrado = Array.Empty<RankingPosicaoDto>();
+    private IReadOnlyList<string> _grupos = Array.Empty<string>();
+    private string _busca = string.Empty;
+    private string? _grupoSelecionado;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _estado = await RankingService.ObterRankingAsync();
+        _top3 = _estado.Posicoes.Take(3).ToList();
+        _restante = _estado.Posicoes.Skip(3).ToList();
+        _grupos = _restante
+            .Select(p => p.Grupo)
+            .Distinct()
+            .OrderBy(g => g, StringComparer.Ordinal)
+            .ToList();
+
+        AtualizarRestanteFiltrado();
+    }
+
+    private Task OnBuscaChangedAsync(string busca)
+    {
+        _busca = busca;
+        AtualizarRestanteFiltrado();
+        return Task.CompletedTask;
+    }
+
+    private Task OnGrupoSelecionadoChangedAsync(string? grupo)
+    {
+        _grupoSelecionado = grupo;
+        AtualizarRestanteFiltrado();
+        return Task.CompletedTask;
+    }
+
+    private void AtualizarRestanteFiltrado()
+    {
+        var termo = _busca.Trim();
+
+        _restanteFiltrado = _restante
+            .Where(p => _grupoSelecionado is null || p.Grupo == _grupoSelecionado)
+            .Where(p => termo.Length == 0 || p.SelecaoNome.Contains(termo, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+}

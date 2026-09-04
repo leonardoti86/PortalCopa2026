@@ -1,0 +1,492 @@
+[
+  {
+    "position": 1,
+    "team": "Argentina",
+    "points": 1877.72
+  },
+  {
+    "position": 2,
+    "team": "Espanha",
+    "points": 1874.71
+  },
+  {
+    "position": 3,
+    "team": "França",
+    "points": 1870.7
+  },
+  {
+    "position": 4,
+    "team": "Inglaterra",
+    "points": 1828.02
+  },
+  {
+    "position": 5,
+    "team": "Portugal",
+    "points": 1767.85
+  },
+  {
+    "position": 6,
+    "team": "Brasil",
+    "points": 1765.86
+  },
+  {
+    "position": 7,
+    "team": "Marrocos",
+    "points": 1755.1
+  },
+  {
+    "position": 8,
+    "team": "Holanda",
+    "points": 1753.57
+  },
+  {
+    "position": 9,
+    "team": "Bélgica",
+    "points": 1742.24
+  },
+  {
+    "position": 10,
+    "team": "Alemanha",
+    "points": 1735.77
+  },
+  {
+    "position": 11,
+    "team": "Croácia",
+    "points": 1720.07
+  },
+  {
+    "position": 12,
+    "team": "Itália",
+    "points": 1703.37
+  },
+  {
+    "position": 13,
+    "team": "Uruguai",
+    "points": 1702.35
+  },
+  {
+    "position": 14,
+    "team": "Colômbia",
+    "points": 1697.92
+  },
+  {
+    "position": 15,
+    "team": "México",
+    "points": 1685.68
+  },
+  {
+    "position": 16,
+    "team": "Senegal",
+    "points": 1682.54
+  },
+  {
+    "position": 17,
+    "team": "Estados Unidos",
+    "points": 1678.82
+  },
+  {
+    "position": 18,
+    "team": "Japão",
+    "points": 1661.38
+  },
+  {
+    "position": 19,
+    "team": "Suíça",
+    "points": 1652.43
+  },
+  {
+    "position": 20,
+    "team": "Equador",
+    "points": 1635.64
+  },
+  {
+    "position": 21,
+    "team": "Dinamarca",
+    "points": 1626.09
+  },
+  {
+    "position": 22,
+    "team": "Turquia",
+    "points": 1602.95
+  },
+  {
+    "position": 23,
+    "team": "República Islâmica do Irã",
+    "points": 1600.01
+  },
+  {
+    "position": 24,
+    "team": "Canadá",
+    "points": 1599.2
+  },
+  {
+    "position": 25,
+    "team": "República da Coreia",
+    "points": 1590.69
+  },
+  {
+    "position": 26,
+    "team": "Nigéria",
+    "points": 1589.22
+  },
+  {
+    "position": 27,
+    "team": "Áustria",
+    "points": 1587.22
+  },
+  {
+    "position": 28,
+    "team": "Austrália",
+    "points": 1582.72
+  },
+  {
+    "position": 29,
+    "team": "Argélia",
+    "points": 1571.65
+  },
+  {
+    "position": 30,
+    "team": "Ucrânia",
+    "points": 1564.69
+  },
+  {
+    "position": 31,
+    "team": "Egito",
+    "points": 1560.23
+  },
+  {
+    "position": 32,
+    "team": "Noruega",
+    "points": 1551.81
+  },
+  {
+    "position": 33,
+    "team": "Panamá",
+    "points": 1550.44
+  },
+  {
+    "position": 34,
+    "team": "Polônia",
+    "points": 1539.27
+  },
+  {
+    "position": 35,
+    "team": "Côte d'Ivoire",
+    "points": 1532
+  },
+  {
+    "position": 36,
+    "team": "Rússia",
+    "points": 1526.57
+  },
+  {
+    "position": 37,
+    "team": "País de Gales",
+    "points": 1520
+  },
+  {
+    "position": 38,
+    "team": "Suécia",
+    "points": 1515.88
+  },
+  {
+    "position": 39,
+    "team": "Tchéquia",
+    "points": 1510.15
+  },
+  {
+    "position": 40,
+    "team": "Tunísia",
+    "points": 1504.92
+  },
+  {
+    "position": 41,
+    "team": "Hungria",
+    "points": 1502.88
+  },
+  {
+    "position": 42,
+    "team": "Escócia",
+    "points": 1497.93
+  },
+  {
+    "position": 43,
+    "team": "Camarões",
+    "points": 1487.86
+  },
+  {
+    "position": 44,
+    "team": "Paraguai",
+    "points": 1485.42
+  },
+  {
+    "position": 45,
+    "team": "Romênia",
+    "points": 1480.2
+  },
+  {
+    "position": 46,
+    "team": "Eslováquia",
+    "points": 1478.71
+  },
+  {
+    "position": 47,
+    "team": "Grécia",
+    "points": 1477.25
+  },
+  {
+    "position": 48,
+    "team": "Geórgia",
+    "points": 1475.13
+  },
+  {
+    "position": 49,
+    "team": "Irlanda",
+    "points": 1474.12
+  },
+  {
+    "position": 50,
+    "team": "República Democrática do Congo",
+    "points": 1473
+  },
+  {
+    "position": 51,
+    "team": "Bolívia",
+    "points": 1436.96
+  },
+  {
+    "position": 52,
+    "team": "Sérvia",
+    "points": 1430.94
+  },
+  {
+    "position": 53,
+    "team": "Albânia",
+    "points": 1425.79
+  },
+  {
+    "position": 54,
+    "team": "Gabão",
+    "points": 1420.64
+  },
+  {
+    "position": 55,
+    "team": "Catar",
+    "points": 1419.02
+  },
+  {
+    "position": 56,
+    "team": "Burkina Faso",
+    "points": 1415.44
+  },
+  {
+    "position": 57,
+    "team": "Israel",
+    "points": 1410.32
+  },
+  {
+    "position": 58,
+    "team": "EA Unidos",
+    "points": 1409.72
+  },
+  {
+    "position": 59,
+    "team": "Angola",
+    "points": 1404.57
+  },
+  {
+    "position": 60,
+    "team": "Benim",
+    "points": 1400.03
+  },
+  {
+    "position": 61,
+    "team": "Jordânia",
+    "points": 1397.9
+  },
+  {
+    "position": 62,
+    "team": "Zâmbia",
+    "points": 1392.33
+  },
+  {
+    "position": 63,
+    "team": "Haiti",
+    "points": 1388.38
+  },
+  {
+    "position": 64,
+    "team": "Jamaica",
+    "points": 1376.29
+  },
+  {
+    "position": 65,
+    "team": "Guiné",
+    "points": 1372.56
+  },
+  {
+    "position": 66,
+    "team": "Venezuela",
+    "points": 1371.62
+  },
+  {
+    "position": 67,
+    "team": "Iraque",
+    "points": 1368.99
+  },
+  {
+    "position": 68,
+    "team": "Kosovo",
+    "points": 1368.59
+  },
+  {
+    "position": 69,
+    "team": "Finlândia",
+    "points": 1355.15
+  },
+  {
+    "position": 70,
+    "team": "Peru",
+    "points": 1352.99
+  },
+  {
+    "position": 71,
+    "team": "Tadjiquistão",
+    "points": 1349.1
+  },
+  {
+    "position": 72,
+    "team": "Síria",
+    "points": 1338.82
+  },
+  {
+    "position": 73,
+    "team": "Montenegro",
+    "points": 1333.11
+  },
+  {
+    "position": 74,
+    "team": "África do Sul",
+    "points": 1332.99
+  },
+  {
+    "position": 75,
+    "team": "Palau",
+    "points": 1329.65
+  },
+  {
+    "position": 76,
+    "team": "Bahrain",
+    "points": 1325.96
+  },
+  {
+    "position": 77,
+    "team": "Belarus",
+    "points": 1324.21
+  },
+  {
+    "position": 78,
+    "team": "Eslovênia",
+    "points": 1323.49
+  },
+  {
+    "position": 79,
+    "team": "Líbia",
+    "points": 1318.33
+  },
+  {
+    "position": 80,
+    "team": "Uganda",
+    "points": 1307.62
+  },
+  {
+    "position": 81,
+    "team": "Congo",
+    "points": 1304.08
+  },
+  {
+    "position": 82,
+    "team": "Mac. do Norte",
+    "points": 1302.52
+  },
+  {
+    "position": 83,
+    "team": "Chipre",
+    "points": 1301.69
+  },
+  {
+    "position": 84,
+    "team": "Omã",
+    "points": 1292.72
+  },
+  {
+    "position": 85,
+    "team": "Armênia",
+    "points": 1290.06
+  },
+  {
+    "position": 86,
+    "team": "Ilhas Salomão",
+    "points": 1284.35
+  },
+  {
+    "position": 87,
+    "team": "Estônia",
+    "points": 1283.83
+  },
+  {
+    "position": 88,
+    "team": "Letônia",
+    "points": 1282.91
+  },
+  {
+    "position": 89,
+    "team": "Líbano",
+    "points": 1278.04
+  },
+  {
+    "position": 90,
+    "team": "Ilhas Faroe",
+    "points": 1277.39
+  },
+  {
+    "position": 91,
+    "team": "Cazaquistão",
+    "points": 1268.75
+  },
+  {
+    "position": 92,
+    "team": "China",
+    "points": 1265.12
+  },
+  {
+    "position": 93,
+    "team": "Tailândia",
+    "points": 1258.32
+  },
+  {
+    "position": 94,
+    "team": "Burundi",
+    "points": 1252.66
+  },
+  {
+    "position": 95,
+    "team": "Malawi",
+    "points": 1247.63
+  },
+  {
+    "position": 96,
+    "team": "Quênia",
+    "points": 1245.95
+  },
+  {
+    "position": 97,
+    "team": "Vietnã",
+    "points": 1241.15
+  },
+  {
+    "position": 98,
+    "team": "Islândia",
+    "points": 1239.57
+  }
+]

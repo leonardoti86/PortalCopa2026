@@ -1,0 +1,57 @@
+<div class="table-responsive sim-classificacao">
+    <table class="table table-sm table-striped align-middle mb-0">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Seleção</th>
+                <th scope="col" class="text-center">J</th>
+                <th scope="col" class="text-center">V</th>
+                <th scope="col" class="text-center">E</th>
+                <th scope="col" class="text-center">D</th>
+                <th scope="col" class="text-center">GP</th>
+                <th scope="col" class="text-center">GC</th>
+                <th scope="col" class="text-center">SG</th>
+                <th scope="col" class="text-center">Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var time in Classificacao.Times)
+            {
+                <tr class="@LinhaCss(time)">
+                    <td>@time.Posicao</td>
+                    <td>
+                        <img class="sim-classificacao__bandeira" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@time.Codigo" alt="Bandeira de @time.Nome" loading="lazy" onerror="this.style.visibility='hidden'" />
+                        <span>@time.Nome</span>
+                        @if (time.Classificado)
+                        {
+                            <span class="badge bg-success ms-1">Classificado</span>
+                        }
+                        else if (time.Wildcard)
+                        {
+                            <span class="badge bg-warning text-dark ms-1">Wildcard</span>
+                        }
+                    </td>
+                    <td class="text-center">@time.Jogos</td>
+                    <td class="text-center">@time.Vitorias</td>
+                    <td class="text-center">@time.Empates</td>
+                    <td class="text-center">@time.Derrotas</td>
+                    <td class="text-center">@time.GolsPro</td>
+                    <td class="text-center">@time.GolsContra</td>
+                    <td class="text-center">@FormatarSaldo(time.SaldoGols)</td>
+                    <td class="text-center fw-bold">@time.Pontos</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public ClassificacaoGrupoDto Classificacao { get; set; } = null!;
+
+    private static string LinhaCss(ClassificacaoTimeDto time) =>
+        time.Classificado ? "sim-linha-classificado" : time.Wildcard ? "sim-linha-wildcard" : string.Empty;
+
+    private static string FormatarSaldo(int saldoGols) =>
+        saldoGols > 0 ? $"+{saldoGols}" : saldoGols.ToString();
+}

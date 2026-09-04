@@ -1,0 +1,41 @@
+@if (Detalhe is not null)
+{
+    <div class="modal fade show" style="display: block;" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="modalSelecaoLabel">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="selecoes-modal__titulo">
+                        <img class="selecoes-modal__flag" src="@Detalhe.FlagUrl" alt="Bandeira de @Detalhe.Nome" loading="lazy" onerror="this.style.visibility='hidden'" />
+                        <h2 class="modal-title h5" id="modalSelecaoLabel">@Detalhe.Nome</h2>
+                    </div>
+                    <button type="button" class="btn-close" aria-label="Fechar" @onclick="Fechada"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="selecoes-modal__meta">
+                        <span><strong>Grupo @Detalhe.GrupoCodigo</strong>Grupo</span>
+                        <span><strong>@Detalhe.Tecnico</strong>Técnico</span>
+                        <span><strong>@RankingTexto</strong>Ranking FIFA</span>
+                        <span><strong>@Detalhe.Jogadores.Count</strong>Jogadores no elenco</span>
+                    </div>
+
+                    <h3 class="h6 mt-4">Elenco</h3>
+                    <TabelaElencoSelecao Jogadores="Detalhe.Jogadores" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop fade show" @onclick="Fechada"></div>
+}
+
+@code {
+    [Parameter]
+    public SelecaoDetalheDto? Detalhe { get; set; }
+
+    [Parameter]
+    public EventCallback Fechada { get; set; }
+
+    private string RankingTexto =>
+        Detalhe?.RankingPosicao is int posicao
+            ? $"{posicao}º ({Detalhe!.RankingPontos:F2} pts)"
+            : "sem dado na fonte";
+}

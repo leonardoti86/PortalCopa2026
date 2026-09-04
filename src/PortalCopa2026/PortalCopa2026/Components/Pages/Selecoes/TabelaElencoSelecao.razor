@@ -1,0 +1,18 @@
+<ul class="selecoes-elenco">
+    @foreach (var jogador in Jogadores)
+    {
+        <li class="selecoes-elenco__jogador">
+            <span class="selecoes-elenco__nome">
+                @jogador.Nome
+                <span class="selecoes-elenco__posicao">@jogador.Posicao</span>
+            </span>
+            <span class="selecoes-elenco__stat"><span class="selecoes-elenco__stat-lbl">Idade</span>@jogador.Idade</span>
+            <span class="selecoes-elenco__stat"><span class="selecoes-elenco__stat-lbl">Gols</span>@jogador.Gols</span>
+        </li>
+    }
+</ul>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<JogadorDto> Jogadores { get; set; } = Array.Empty<JogadorDto>();
+}

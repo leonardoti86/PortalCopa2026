@@ -1,0 +1,110 @@
+[
+  {
+    "code": "A",
+    "teams": [
+      "México",
+      "África do Sul",
+      "República da Coreia",
+      "Tchéquia"
+    ]
+  },
+  {
+    "code": "B",
+    "teams": [
+      "Canadá",
+      "Bósnia e Herzegovina",
+      "Catar",
+      "Suíça"
+    ]
+  },
+  {
+    "code": "C",
+    "teams": [
+      "Brasil",
+      "Marrocos",
+      "Haiti",
+      "Escócia"
+    ]
+  },
+  {
+    "code": "D",
+    "teams": [
+      "Estados Unidos",
+      "Paraguai",
+      "Austrália",
+      "Turquia"
+    ]
+  },
+  {
+    "code": "E",
+    "teams": [
+      "Alemanha",
+      "Curaçao",
+      "Côte d'Ivoire",
+      "Equador"
+    ]
+  },
+  {
+    "code": "F",
+    "teams": [
+      "Holanda",
+      "Japão",
+      "Suécia",
+      "Tunísia"
+    ]
+  },
+  {
+    "code": "G",
+    "teams": [
+      "Bélgica",
+      "Egito",
+      "República Islâmica do Irã",
+      "Nova Zelândia"
+    ]
+  },
+  {
+    "code": "H",
+    "teams": [
+      "Espanha",
+      "Cabo Verde",
+      "Arábia Saudita",
+      "Uruguai"
+    ]
+  },
+  {
+    "code": "I",
+    "teams": [
+      "França",
+      "Senegal",
+      "Iraque",
+      "Noruega"
+    ]
+  },
+  {
+    "code": "J",
+    "teams": [
+      "Argentina",
+      "Argélia",
+      "Áustria",
+      "Jordânia"
+    ]
+  },
+  {
+    "code": "K",
+    "teams": [
+      "Portugal",
+      "República Democrática do Congo",
+      "Uzbequistão",
+      "Colômbia"
+    ]
+  },
+  {
+    "code": "L",
+    "teams": [
+      "Inglaterra",
+      "Croácia",
+      "Gana",
+      "Panamá"
+    ]
+  }
+]

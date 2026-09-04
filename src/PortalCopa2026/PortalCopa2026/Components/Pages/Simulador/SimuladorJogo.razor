@@ -1,0 +1,65 @@
+<div class="sim-jogo">
+    <div class="sim-jogo__time">
+        <img class="sim-jogo__bandeira" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@Jogo.CodigoMandante" alt="Bandeira de @Jogo.SelecaoMandante" loading="lazy" onerror="this.style.visibility='hidden'" />
+        <span class="sim-jogo__nome">@Jogo.SelecaoMandante</span>
+    </div>
+    <div class="sim-jogo__placares">
+        <input type="number" min="0" max="30" class="form-control form-control-sm sim-jogo__input"
+               value="@_placarMandante" @onchange="OnPlacarMandanteChanged"
+               aria-label="Placar de @Jogo.SelecaoMandante" />
+        <span class="sim-jogo__separador">×</span>
+        <input type="number" min="0" max="30" class="form-control form-control-sm sim-jogo__input"
+               value="@_placarVisitante" @onchange="OnPlacarVisitanteChanged"
+               aria-label="Placar de @Jogo.SelecaoVisitante" />
+    </div>
+    <div class="sim-jogo__time sim-jogo__time--visitante">
+        <span class="sim-jogo__nome">@Jogo.SelecaoVisitante</span>
+        <img class="sim-jogo__bandeira" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@Jogo.CodigoVisitante" alt="Bandeira de @Jogo.SelecaoVisitante" loading="lazy" onerror="this.style.visibility='hidden'" />
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public SimuladorJogoDto Jogo { get; set; } = null!;
+
+    [Parameter]
+    public EventCallback<(int JogoId, int? PlacarMandante, int? PlacarVisitante)> PlacarAlterado { get; set; }
+
+    private int? _placarMandante;
+    private int? _placarVisitante;
+    private int _jogoIdCarregado = -1;
+
+    protected override void OnParametersSet()
+    {
+        // Só re-sincroniza com o valor vindo do servidor quando o jogo exibido muda de fato.
+        // Isso preserva o que o usuário já digitou em um dos campos enquanto o outro ainda
+        // está vazio (placar parcial não é persistido, então o servidor devolveria null).
+        if (Jogo.JogoId != _jogoIdCarregado)
+        {
+            _placarMandante = Jogo.PlacarMandante;
+            _placarVisitante = Jogo.PlacarVisitante;
+            _jogoIdCarregado = Jogo.JogoId;
+        }
+    }
+
+    private Task OnPlacarMandanteChanged(ChangeEventArgs e)
+    {
+        _placarMandante = ParsePlacar(e.Value);
+        return NotificarAlteracaoAsync();
+    }
+
+    private Task OnPlacarVisitanteChanged(ChangeEventArgs e)
+    {
+        _placarVisitante = ParsePlacar(e.Value);
+        return NotificarAlteracaoAsync();
+    }
+
+    private static int? ParsePlacar(object? valor)
+    {
+        var texto = valor?.ToString();
+        return int.TryParse(texto, out var numero) && numero >= 0 ? numero : null;
+    }
+
+    private Task NotificarAlteracaoAsync() =>
+        PlacarAlterado.InvokeAsync((Jogo.JogoId, _placarMandante, _placarVisitante));
+}

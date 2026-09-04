@@ -1,0 +1,7526 @@
+{
+  "Argélia": [
+    {
+      "name": "Melvin Mastil",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Aissa Mandi",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 8
+    },
+    {
+      "name": "Achref Abada",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Mohamed Amine Tougai",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Zineddine Belaid",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ramiz Zerrouki",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Riyad Mahrez",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 38
+    },
+    {
+      "name": "Houssem Aouar",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Amine Gouri",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Farès Chaibi",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Anis Hadj Moussa",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Nadhir Benbouali",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Jaouen Hadjam",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Hicham Boudaqui",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Rayan Ait-Nouri",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Oussama Benbot",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Rafik Belghali",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Mohamed Amine Amoura",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 19
+    },
+    {
+      "name": "Nabil Bentaleb",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Adil Boulbina",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Ramy Bensebaini",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 9
+    },
+    {
+      "name": "Ibrahim Maza",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Luca Zidane",
+      "age": 28,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Yacine Titraoui",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Farès Ghedjemis",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Samir Chergui",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Argentina": [
+    {
+      "name": "Juan Musso",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Leonardo Balerdi",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Nicolás Tagliafico",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Leandro Paredes",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Lisandro Martínez",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Valentín Barco",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Julián Álvarez",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 14
+    },
+    {
+      "name": "Lionel Messi",
+      "age": 38,
+      "position": "Atacante",
+      "goals": 20
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Gerónimo Rulli",
+      "age": 34,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Cristian Romero",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Exequiel Palacios",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Nico González",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Thiago Almada",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Giuliano Simeone",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Nicolás Paz",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Nicolás Otamendi",
+      "age": 38,
+      "position": "Defensor",
+      "goals": 38
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Flaco López",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Lautaro Martínez",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 37
+    },
+    {
+      "name": "Emiliano “Dibu” Martínez",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Enzo Fernández",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Facundo Medina",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Nahuel Molina",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    }
+  ],
+  "Austrália": [
+    {
+      "name": "Mat Ryan",
+      "age": 34,
+      "position": "Goleiro",
+      "goals": 40
+    },
+    {
+      "name": "Milos Degenek",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Alessandro Circati",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Jacob Italiano",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jordan Bos",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Jason Geria",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mathew Leckie",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 14
+    },
+    {
+      "name": "Connor Metcalfe",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Mohamed Toure",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Ajdin Hrustic",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Awer Mabil",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Paul Izzo",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Aiden O'Neill",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Cameron Devlin",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Kai Trewin",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Aziz Behich",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Nestory Irankunda",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Patrick Beach",
+      "age": 22,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Harry Souttar",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 11
+    },
+    {
+      "name": "Cristian Volpato",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Cameron Burgess",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jackson Irvine",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 14
+    },
+    {
+      "name": "Nishan Velupillay",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Paul Okon-Engstler",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Lucas Herrington",
+      "age": 18,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Tete Yengi",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 1
+    }
+  ],
+  "Áustria": [
+    {
+      "name": "Alexander Schelager",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "David Affengruber",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kevin Danso",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Schlager",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Stefan Posch",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 5
+    },
+    {
+      "name": "Nicolas Seiwald",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Marko Arnautovic",
+      "age": 37,
+      "position": "Atacante",
+      "goals": 48
+    },
+    {
+      "name": "David Alaba",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 15
+    },
+    {
+      "name": "Sabitzer",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 26
+    },
+    {
+      "name": "Florian Grillitsch",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Michael Gregoritsch",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 24
+    },
+    {
+      "name": "Florian Wiegele",
+      "age": 25,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Patrick Pentz",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Sasa Kalajdzic",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Philipp Lienhart",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Philipp Mwene",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Carney Chukwuenmeka",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Romano Schmid",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Dejan Ljubicic",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Konrad Laimer",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Patrick Wimmer",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Alexander Prass",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Marco Fiedl",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Paul Wanner",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Michael Svoboda",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Alessandro Schöpf",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 6
+    }
+  ],
+  "Bélgica": [
+    {
+      "name": "Courtois",
+      "age": 34,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Zeno Debast",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Arthur Theate",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Brandon Mechele",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Maxim De Cuyper",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Axel Witsel",
+      "age": 37,
+      "position": "Meio-campista",
+      "goals": 12
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "age": 34,
+      "position": "Meio-campista",
+      "goals": 37
+    },
+    {
+      "name": "Youri Tielemans",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 13
+    },
+    {
+      "name": "Romelu Lukaku",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 90
+    },
+    {
+      "name": "Leandro Trossard",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "Jeremy Doku",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Lammens",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Mike Penders",
+      "age": 20,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Dodi Lukebakio",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Thomas Meunier",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 10
+    },
+    {
+      "name": "Koni De Winter",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Charles De Ketelaere",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Joaquin Seys",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Diego Moreira",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Hans Vanaken",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Timothy Castagne",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Alexis Saelemaekers",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Nicolas Raskin",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Amadou Onana",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Nathan Ngoy",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mathias Fernandez-Pardo",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 0
+    }
+  ],
+  "Bósnia e Herzegovina": [
+    {
+      "name": "Nikola Vasilj",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Nihad Mujakic",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Dennis Hadzikadunic",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Tarik Muharemovic",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Sead Kolasinac",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Benjamin Tahirovic",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Amar Dedic",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Armin Gigovic",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Samed Bazdar",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Ermedin Demirovic",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Edin Dzeko",
+      "age": 40,
+      "position": "Atacante",
+      "goals": 73
+    },
+    {
+      "name": "Mladen Jurkas",
+      "age": 18,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ivan Basic",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Ivan Sunjic",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Amar Memic",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Amir Hadziahmetovic",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Dzenis Burnic",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Nikola Katic",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Kerim Alajbegovic",
+      "age": 18,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Esmir Bajraktarevic",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Stjepan Radeljic",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Martin Zlomislic",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Haris Tabakovic",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Arjan Malic",
+      "age": 20,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jovo Lukic",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Ermin Mahmic",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 1
+    }
+  ],
+  "Brasil": [
+    {
+      "name": "Alisson",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Éderson",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Gabriel Magalhães",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Alex Sandro",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Vinicius Junior",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 11
+    },
+    {
+      "name": "Bruno Guimarães",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Matheus Cunha",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Neymar",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 79
+    },
+    {
+      "name": "Raphinha",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 11
+    },
+    {
+      "name": "Weverton",
+      "age": 38,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Danilo",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Bremer",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Léo Pereira",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Douglas Santos",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Fabinho",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Danilo Santos",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Endrick",
+      "age": 19,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Lucas Paquetá",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 13
+    },
+    {
+      "name": "Luiz Henrique",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Roger",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Igor Thiago",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Rayan",
+      "age": 19,
+      "position": "Atacante",
+      "goals": 1
+    }
+  ],
+  "Cabo Verde": [
+    {
+      "name": "Josimar Dias",
+      "age": 40,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ianique Tavares",
+      "age": 38,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Edilson Borges",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Roberto Lopes",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Logan Costa",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kevin Pina",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Jovane Cabral",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "João Paulo Fernandes",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Gilson Benchimol",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Jamiro Monteiro",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Garry Rodrigues",
+      "age": 35,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Márcio da Rosa",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Sidny Cabral",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Deroy Duarte",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Laros Duarte",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Yannick Semedo",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Willy Semedo",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Telmo Arcanjo",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Dailon Livramento",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Ryan Mendes",
+      "age": 36,
+      "position": "Atacante",
+      "goals": 22
+    },
+    {
+      "name": "Nuno da Costa",
+      "age": 35,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Steven Moreira",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Carlos Santos",
+      "age": 25,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Wagner Pina",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kelvin Pires",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Hélio Varela",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 0
+    }
+  ],
+  "Canadá": [
+    {
+      "name": "Dayne St. Clair",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Alistair Johnson",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Alfie Jones",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Luc De Fougerolles",
+      "age": 20,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Joel Waterman",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mathieu Choinière",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Stephen Eustáquio",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Ismaël Koné",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Cyle Larin",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 32
+    },
+    {
+      "name": "Jonathan David",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 42
+    },
+    {
+      "name": "Liam Miller",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Tani Oluwaseyi",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Derek Cornelius",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Jacob Shaffelburg",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Moïse Bombito",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Maxime Crépeau",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Tajon Buchanan",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Owen Goodman",
+      "age": 22,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Alphonso Davies",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 15
+    },
+    {
+      "name": "Ali Ahmed",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Jonathan Osario",
+      "age": 34,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Richie Laryea",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Niko Sigur",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Promise David",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Nathan Saliba",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Jayden Nelson",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 3
+    }
+  ],
+  "Colômbia": [
+    {
+      "name": "David Ospina",
+      "age": 37,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Daniel Muñoz",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Jhon Lucumí",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Santiago Arias",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kevin Castaño",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Richard Ríos",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Luis Díaz",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 23
+    },
+    {
+      "name": "Jorge Carrascal",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Jhon Córdoba",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "James Rodríguez",
+      "age": 34,
+      "position": "Meio-campista",
+      "goals": 31
+    },
+    {
+      "name": "Jhon Arias",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Camilo Vargas",
+      "age": 37,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Yerry Mina",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 8
+    },
+    {
+      "name": "Gustavo Puerta",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Juan Camilo Portilla",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Jefferson Lerma",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Johan Mojica",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Willer Ditta",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Juan Camilo Hernández",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Juan Fernando Quintero",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Jaminton Campaz",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Deiver Machado",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Davinson Sánchez",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Álvaro Montero",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Luis Javier Suárez",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Carlos Gómez",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 2
+    }
+  ],
+  "República Democrática do Congo": [
+    {
+      "name": "Lionel Mpasi",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Aaron Wan-Bissaka",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Steve Kapuadi",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Alex Tuanzebe",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Dylan Batubinsika",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ngal'ayel Mukau",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Nathanael Mbuku",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Samuel Moutoussamy",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Brian Cipenga",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Théo Bongonda",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Gaël Kakuta",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Joris Kayembe",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Meschack Elia",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "Noah Sadiki",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Aaron Tshibola",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Thimothy Fayulu",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Cédric Bakambu",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 21
+    },
+    {
+      "name": "Charles Pickel",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Fiston Mayele",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Yoane Wissa",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 9
+    },
+    {
+      "name": "Matthieu Epolo",
+      "age": 21,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Chancel Mbemba",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 7
+    },
+    {
+      "name": "Simon Banza",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Gédéon Kalulu",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Edo Kayembe",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Arthur Masuaku",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 4
+    }
+  ],
+  "Côte d'Ivoire": [
+    {
+      "name": "Yahia Fofana",
+      "age": 25,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ousmane Diomande",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ghislain Konan",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jean Michaël Seri",
+      "age": 34,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Wilfried Singo",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Seko Fofana",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Odilon Kossounou",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Franck Kessié",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 16
+    },
+    {
+      "name": "Ange-Yoan Bonny",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Simon Adingra",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Yan Diomande",
+      "age": 19,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Elye Wahi",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Christopher Operi",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Oumar Diakité",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Amad Diallo",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Mohamed Koné",
+      "age": 24,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Guéla Doué",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Ibrahim Sangaré",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 11
+    },
+    {
+      "name": "Nicolas Pépé",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "Emmanuel Agbadou",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Evan Ndicka",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Evann Guessand",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Alban Lafont",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Bazoumana Touré",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Parfait Guiagon",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Christ Inao Oulaï",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    }
+  ],
+  "Croácia": [
+    {
+      "name": "Dominik Livakovic",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Josip Stanisic",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Marin Pongracic",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Josko Gvardiol",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Duje Caleta-Car",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Josip Sutalo",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Nikola Moro",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Mateo Kovacic",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Andrej Kramaric",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 36
+    },
+    {
+      "name": "Luka Modric",
+      "age": 40,
+      "position": "Meio-campista",
+      "goals": 29
+    },
+    {
+      "name": "Ante Budimir",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Ivor Pandur",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Nikola Vlasic",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Ivan Perisic",
+      "age": 37,
+      "position": "Atacante",
+      "goals": 38
+    },
+    {
+      "name": "Mario Pasalic",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 12
+    },
+    {
+      "name": "Martin Baturina",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Luka Sucic",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Kristijan Jakic",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Toni Fruk",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Igor Matanovic",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Petar Sucic",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Luka Vuskovic",
+      "age": 19,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Dominik Kotarski",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Marco Pasalic",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Martin Erlic",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Petar Musa",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 2
+    }
+  ],
+  "Curaçao": [
+    {
+      "name": "Eloy Room",
+      "age": 37,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Shurandy Sambo",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Juriën Gaari",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Roshon van Eijma",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Sherel Floranus",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Godfried Romeratoe",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Juninho Bacuna",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 14
+    },
+    {
+      "name": "Livano Comenencia",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Jürgen Locadia",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Leandro Bacuna",
+      "age": 34,
+      "position": "Meio-campista",
+      "goals": 16
+    },
+    {
+      "name": "Jeremy Antonisse",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Sontje Hansen",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Tyrese Noslin",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Kenji Gorré",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Ar’Jany Martha",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Jearl Margaritha",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Brandley Kuwas",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Armando Obispo",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Gervane Kastaneer",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 9
+    },
+    {
+      "name": "Joshua Brenet",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Tahith Chong",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Kevin Felida",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Riechedly Bazoer",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Deveron Fonville",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Tyrick Bodak",
+      "age": 24,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Trevor Doornbusch",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    }
+  ],
+  "Tchéquia": [
+    {
+      "name": "Matěj Kovář",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "David Zima",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Tomáš Holeš",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Robin Hranáč",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Vladimír Coufal",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Štěpán Chaloupek",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ladislav Krejčí",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 6
+    },
+    {
+      "name": "Vladimír Darida",
+      "age": 35,
+      "position": "Meio-campista",
+      "goals": 8
+    },
+    {
+      "name": "Adam Hložek",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Patrik Schick",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 26
+    },
+    {
+      "name": "Jan Kuchta",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Lukáš Červ",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Mojmír Chytil",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "David Jurásek",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Pavel Šulc",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Jindřich Staněk",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Lukáš Provod",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Michal Sadílek",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Tomáš Chorý",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Jaroslav Zelený",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "David Douděra",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Tomáš Souček",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 17
+    },
+    {
+      "name": "Lukáš Horníček",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Alexandr Sojka",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Hugo Sochůrek",
+      "age": 18,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Denis Višinský",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 1
+    }
+  ],
+  "Equador": [
+    {
+      "name": "Hernán Galíndez",
+      "age": 39,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Félix Torres",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 5
+    },
+    {
+      "name": "Piero Hincapié",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Joel Ordóñez",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jordy Alcívar",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Willian Pacho",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Pervis Estupiñán",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 5
+    },
+    {
+      "name": "Enner Valencia",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "John Yeboah",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Kendry Páez",
+      "age": 19,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Kevin Rodríguez",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Moisés Ramírez",
+      "age": 25,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Anthony Valencia",
+      "age": 36,
+      "position": "Atacante",
+      "goals": 49
+    },
+    {
+      "name": "Alan Minda",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Pedro Vite",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Jordy Caicedo",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Ángelo Preciado",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Denil Castillo",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Gonzalo Plata",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Nilson Angulo",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Alan Franco",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Gonzalo Valle",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Moisés Caicedo",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Jeremy Arévalo",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Jackson Porozo",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Yaimar Medina",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Egito": [
+    {
+      "name": "Mohamed El Shenawy",
+      "age": 37,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Yasser Ibrahim",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Mohamed Hany",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Hossam Abdelmaguid",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ramy Rabia",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 6
+    },
+    {
+      "name": "Mohamed Abdelmonem",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Mahmoud Trezeguet",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 23
+    },
+    {
+      "name": "Emam Ashour",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Hamza Abdel Karim",
+      "age": 18,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Mohamed Salah",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 67
+    },
+    {
+      "name": "Mostafa Ziko",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Aktay Abdullah",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Ahmed Fatouh",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Hamdi Fathi",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Karim Hafez",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "El Mahdy Soliman",
+      "age": 39,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Mohannad Lasheen",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Nabil Emad Dunga",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Marwan Attia",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Ibrahim Adel",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Mahmoud Saber",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Omar Marmoush",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 11
+    },
+    {
+      "name": "Mostafa Shobeir",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Tarek Alaa",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ahmed Sayed Zizo",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Mohamed Alaa",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    }
+  ],
+  "Inglaterra": [
+    {
+      "name": "Jordan Pickford",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ezri Konsa",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Nico O'Reilly",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Declan Rice",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "John Stones",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Marc Guehi",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Bukayo Saka",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 14
+    },
+    {
+      "name": "Elliot Anderson",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Harry Kane",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 81
+    },
+    {
+      "name": "Jude Bellingham",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Marcus Rashford",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 19
+    },
+    {
+      "name": "Chalobah",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Dean Henderson",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Jordan Henderson",
+      "age": 36,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Dan Burn",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Morgan Rogers",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Anthony Gordon",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Ollie Watkins",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Noni Madueke",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Eberechi Eze",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Ivan Toney",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "James Trafford",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "eece James",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Djed Spence",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jarell Quansah",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "França": [
+    {
+      "name": "Brice Samba",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Malo Gusto",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Lucas Digne",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Dayot Upamecano",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Jules Koundé",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Manu Koné",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Marcus Thuram",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Kylian Mbappé",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 58
+    },
+    {
+      "name": "Michael Olise",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Bradley Barcola",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "N'Golo Kanté",
+      "age": 35,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Adrien Rabiot",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mike Maignan",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "William Saliba",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Lucas Hernandez",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Désiré Doué",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Theo Hernandez",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jean-Philippe Mateta",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Robin Risser",
+      "age": 21,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Rayan Cherki",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Maghnès Akliouche",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Maxence Lacroix",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Alemanha": [
+    {
+      "name": "Manuel Neuer",
+      "age": 40,
+      "position": "Goleiro",
+      "goals": 60
+    },
+    {
+      "name": "Antonio Rudiger",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Waldemar Anton",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jonathan Tah",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Aleksandar Pavlovic",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Joshua Kimmich",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 10
+    },
+    {
+      "name": "Kai Havertz",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 24
+    },
+    {
+      "name": "Leon Goretzka",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 15
+    },
+    {
+      "name": "Jamie Leweling",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Jamal Musiala",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Nick Woltemade",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Oliver Baumann",
+      "age": 36,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Pascal Gross",
+      "age": 35,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Maximilian Beier",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Angelo Stiller",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Florian Wirtz",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 11
+    },
+    {
+      "name": "Nathaniel Brown",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Leroy Sané",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 17
+    },
+    {
+      "name": "Nadiem Amiri",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Alexander Nubel",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "David Raum",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Felix Nmecha",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Malick Thiaw",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Lennart Karl",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Deniz Undav",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 9
+    }
+  ],
+  "Gana": [
+    {
+      "name": "Lawrence Ati-Zigi",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Alidu Seidu",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Caleb Yirenkyi",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Jonas Adjetey",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Thomas Partey",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 16
+    },
+    {
+      "name": "Abdul Mumin",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Abdul Fatawu Issahaku",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Kwasi Sibo",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Jordan Ayew",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 34
+    },
+    {
+      "name": "Brandon Thomas-Asante",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Antoine Semenyo",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Joseph Anang",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Christopher Bonsu Baah",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Gideoh Mensah",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Elisha Owusu",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Benjamin Asare",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Baba Abdul Rahman",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Jerome Opoku",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Iñaki Williams",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Augustine Boakye",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Kojo Oppong Peprah",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kamal Deen Sulemana",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Derrick Luckassen",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ernest Nuamah",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Prince Kwabena Adu",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Marvin Senaya",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Haiti": [
+    {
+      "name": "Johnny Placide",
+      "age": 38,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Carlens Arcus",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Keeto Thermoncy",
+      "age": 20,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ricardo Ade",
+      "age": 36,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Hannes Delcroix",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Carl-Fred Sainthe",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Derrick Etienne",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Martin Experience",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Duckens Nazon",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 44
+    },
+    {
+      "name": "Jeanricner Bellegarde",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Louicius Deedson",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Alexandre Pierre",
+      "age": 25,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Duke Lacroix",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Garven-Michée Metusala",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ruben Providence",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Lenny Joseph",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Jean-Jacques Danley",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Wilson Isidor",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Yassin Fortune",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Frantzdy Pierrot",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 34
+    },
+    {
+      "name": "Josué Casimir",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "JK Duverne",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Josué Duverger",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Wilguens Pauguain",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Dominique Simon",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Pierre Woodenski",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    }
+  ],
+  "República Islâmica do Irã": [
+    {
+      "name": "Alireza Beyranvand",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Saleh Hardani",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ehsan Hajisafi",
+      "age": 36,
+      "position": "Defensor",
+      "goals": 77
+    },
+    {
+      "name": "Shoja Khalilzadeh",
+      "age": 37,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Milad Mohammadi",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Saeid Ezatolahi",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Alireza Jahanbakhsh",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 17
+    },
+    {
+      "name": "Mohammad Mohebbi",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 14
+    },
+    {
+      "name": "Mehdi Taremi",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 59
+    },
+    {
+      "name": "Mehdi Ghayedi",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Ali Alipour",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Payam Niazmand",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Hossein Kanani",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 6
+    },
+    {
+      "name": "Saman Ghoddos",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Roozbeh Cheshmi",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Mehdi Torabi",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Arya Yousefi",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Amirhossein Hosseinzadeh",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Ali Nemati",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Shahriyar Moghanloo",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Mohammad Ghorbani",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Hosein Hoseini",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ramin Rezaeian",
+      "age": 36,
+      "position": "Defensor",
+      "goals": 9
+    },
+    {
+      "name": "Denis Dargahi",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Danial Iri",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Amirmohammad Razaghinia",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    }
+  ],
+  "Iraque": [
+    {
+      "name": "Fahad Talib",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Rebin Ghareeb",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Hussein Ali",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Zaid Tahseen",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Akam Hashim",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Munaf Younus",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Youssef Amyn",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Ibrahim Bayesh",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 8
+    },
+    {
+      "name": "Ali Al-Hamadi",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Ali Jassim",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 26
+    },
+    {
+      "name": "Ahmed Qasim",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Jalal Hassan",
+      "age": 35,
+      "position": "Goleiro",
+      "goals": 50
+    },
+    {
+      "name": "Mohanad Ali",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Zidane Iqbal",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Ahmed Maknzi",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Amir Al-Ammari",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Ali Yousif",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Aymen Hussein",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 34
+    },
+    {
+      "name": "Kevin Yakob",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Aimar Sher",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Marko Farji",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Ahmed Basil",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Merchas Doski",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Zaid Ismail",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Mustafa Saadoun",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Frans Putros",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Japão": [
+    {
+      "name": "Zion Suzuki",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Yukinari Sugawara",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Shogo Taniguchi",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ko Itakura",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Yuto Nagatomo",
+      "age": 39,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Shuto Machino",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Ao Tanaka",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 8
+    },
+    {
+      "name": "Takefusa Kubo",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Keisuke Goto",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Ritsu Doan",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 11
+    },
+    {
+      "name": "Daizen Maeda",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Keisuke Osako",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Keito Nakamura",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 12
+    },
+    {
+      "name": "Junya Ito",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 16
+    },
+    {
+      "name": "Daichi Kamada",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 14
+    },
+    {
+      "name": "Tsuyoshi Watanabe",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Yuito Suzuki",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Ayase Ueda",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 18
+    },
+    {
+      "name": "Koki Ogawa",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 11
+    },
+    {
+      "name": "Ayumu Seko",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Hiroki Ito",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Tomoki Hayakawa",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Kaishu Sano",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Junnosuke Suzuki",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kento Shiogai",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 0
+    }
+  ],
+  "Jordânia": [
+    {
+      "name": "Yazeed Abu Laila",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Mohammad Abualnadi",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Abdallah Nasib",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Husam Abu Dahab",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Yazan Al-Arab",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Amer Jamous",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Mohammad Al-Dawoud",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Nour Al-Rawabdeh",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Ali Al-Azaizeh",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 30
+    },
+    {
+      "name": "Musa Al-Taamari",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 24
+    },
+    {
+      "name": "Odeh Fakhouri",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Nour Bani Attiah",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Mahmoud Al-Mardi",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Rajaei Ayed",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Ibrahim Sadeh",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Mohammad Abu Hashish",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Saleem Obaid",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mohammad Abu Zrayq",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Saed Al-Rosan",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Mohannad Abu Taha",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Nizar Al-Rashdan",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Abdullah Al-Fakhouri",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ihsan Haddad",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Ali Olwan",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Mohammad bu Ghoush",
+      "age": 34,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Anas Badawi",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "República da Coreia": [
+    {
+      "name": "Kim Seung-gyu",
+      "age": 35,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Lee Hanbeom",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Lee Kihyuk",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Kim Minjae",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Kim Moonhwan",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Hwang Heechan",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Son Heungmin",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 56
+    },
+    {
+      "name": "Paik Seungho",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Cho Guesung",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "Lee Taeseok",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 15
+    },
+    {
+      "name": "Hwang Inbeom",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 17
+    },
+    {
+      "name": "Song Bumkeun",
+      "age": 28,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Lee Donggyeong",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Jo Wije",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kim Taehyeon",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Park Jinseob",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Bae Junho",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Oh Hyeongyu",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Lee Jaesung",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Yang Hyunjun",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Jo Hyeonwoo",
+      "age": 34,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Seol Youngwoo",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jens Castrop",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kim Jingyu",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Eom Jisung",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Lee Kangin",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 4
+    }
+  ],
+  "México": [
+    {
+      "name": "Raúl Rangel",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Jorge Sánchez",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "César Montes",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Edson Álvarez",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 17
+    },
+    {
+      "name": "Joah Vásquez",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Erik Lira",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Luis Romo",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Álvaro Fidalgo",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Raúl Jiménez",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 46
+    },
+    {
+      "name": "Alexis Veja",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Santiago Giménez",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Carlos Acevedo",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Guillermo Ochoa",
+      "age": 40,
+      "position": "Goleiro",
+      "goals": 30
+    },
+    {
+      "name": "Armando González",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Israel Reyes",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Julián Quiñones",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Orbelín Pineda",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 12
+    },
+    {
+      "name": "Obed Vargas",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Gilberto Mora",
+      "age": 17,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Mateo Chávez",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "César Huerta",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Guillermo Martínez",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Jesús Gallardo",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 43
+    },
+    {
+      "name": "Luis Chávez",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Roberto Alvarado",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Brian Gutiérrez",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 2
+    }
+  ],
+  "Marrocos": [
+    {
+      "name": "Yassine Bounou",
+      "age": 35,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Achraf Hakimi",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 11
+    },
+    {
+      "name": "Noussair Mazraoui",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Sofyan Amrabat",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Marwane Saadne",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ayoub Bouaddi",
+      "age": 18,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Chemsdine Talbi",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Azzedine Ounahi",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 9
+    },
+    {
+      "name": "Soufiane Rahimi",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "Brahim Díaz",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 15
+    },
+    {
+      "name": "Ismaël Saibari",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 11
+    },
+    {
+      "name": "Munir El Kajoui",
+      "age": 37,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Zakaria El Ouahdi",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Issa Diop",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Neil El Aynaoui",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Yassine Bessime",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Amine Sabai",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Chadi Riad",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Youssef Belammari",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ayoub El Kaabi",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 36
+    },
+    {
+      "name": "Ayoube Amahount",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Ahmed Reda Tagnaouti",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Samir El Mourabet",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Bilal El Khannouss",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Redouane Halhal",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Anass Salah-Eddine",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Holanda": [
+    {
+      "name": "Bart Verbruggen",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Lutsharel Geertruida",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Frenkie de Jong",
+      "age": 35,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Virgil van Dijk",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 13
+    },
+    {
+      "name": "Nathan Aké",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 5
+    },
+    {
+      "name": "Jan Paul van Hecke",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Justin Kluivert",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Wout Weghorst",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 14
+    },
+    {
+      "name": "Memphis Depay",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 55
+    },
+    {
+      "name": "Cody Gakpo",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 23
+    },
+    {
+      "name": "Mats Wieffer",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Robin Roefs",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Tijjani Reijnders",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Micky van de Ven",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Guus Til",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Noa Lang",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Donyell Malen",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 13
+    },
+    {
+      "name": "Brian Brobbey",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Teun Koopmeiners",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Marten de Roon",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Denzel Dumfries",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 11
+    },
+    {
+      "name": "Mark Flekken",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Crysencio Summerville",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Jorrel Hato",
+      "age": 20,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Quinten Timber",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    }
+  ],
+  "Nova Zelândia": [
+    {
+      "name": "Max Crocombe",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Tim Payne",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Francis de Vries",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Tyler Bindon",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Michael Boxall",
+      "age": 37,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Callum McCowatt",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Logan Rogerson",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Marko Stamenić",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Chris Wood",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 45
+    },
+    {
+      "name": "Sarpreet Singh",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Eli Just",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 11
+    },
+    {
+      "name": "Alex Paulsen",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Liberato Cacace",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Alex Rufer",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Nando Pijnaker",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Finn Surman",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Kosta Barbarouses",
+      "age": 36,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Ben Waine",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 9
+    },
+    {
+      "name": "Ben Old",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Jesse Randall",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Michael Woud",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ryan Thomas",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Callan Elliot",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Lachlan Bayliss",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Tommy Smith",
+      "age": 36,
+      "position": "Defensor",
+      "goals": 2
+    }
+  ],
+  "Noruega": [
+    {
+      "name": "Orjan Nyland",
+      "age": 35,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Morten Thorsby",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Kristoffer Ajer",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Leo Ostigard",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "David Moller",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Patrick Berg",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Alexander Sorloth",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 26
+    },
+    {
+      "name": "Sander Berge",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Erling Haaland",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 57
+    },
+    {
+      "name": "Martin Odegaard",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Strand Larsen",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Sander Tangvik",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Egil Selvik",
+      "age": 28,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Fredrik Aursnes",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Fredrik Bjorkan",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Holmgren Pedersen",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Torbjorn Heggem",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kristian Thorstvedt",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Thelo Aasgaard",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Antonio Nusa",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Andreas Schjelderup",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Oscar Bobb",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Jens Petter Hauge",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Sondre Langas",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Henrik Falchener",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Julian Ryerson",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 1
+    }
+  ],
+  "Panamá": [
+    {
+      "name": "Luis Mejía",
+      "age": 35,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Cesar Blackman",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "José Cordoba",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Fidel Escobar",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Edgardo Fariña",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Cristian Martínez",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Tomás Rodríguez",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 8
+    },
+    {
+      "name": "Adalberto Carrasquilla",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Puma Rodríguez",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Ismael Díaz",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 17
+    },
+    {
+      "name": "Yoel Bárcenas",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "César Samudio",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Jiovany Ramos",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Carlos Harvey",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Éric Davis",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 79
+    },
+    {
+      "name": "Andrés Andrade",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "José Fajardo",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 17
+    },
+    {
+      "name": "Cecílio Waterman",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 15
+    },
+    {
+      "name": "Alberto Quintero",
+      "age": 38,
+      "position": "Meio-campista",
+      "goals": 17
+    },
+    {
+      "name": "Aníbal Godoy",
+      "age": 36,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "César Yanis",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Orlando Mosquera",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Michael Murillo",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 9
+    },
+    {
+      "name": "Azarias Londoño",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Roderick Miller",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Jorge Gutiérrez",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Paraguai": [
+    {
+      "name": "Gatito Fernández",
+      "age": 38,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Gustavo Velázquez",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Omar Alderete",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Juan Cáceres",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Fabián Balbuena",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Junior Alonso",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Ramón Sosa",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Diego Gómez",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Antonio Sanabria",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Miguel Almirón",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Mauricio",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Orlando Gill",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "José Canale",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Andrés Cubas",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Gustavo Gómez",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Damián Bobadilla",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Alejandro Romero Gamarra",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Álex Arce",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Julio Enciso",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Braian Ojeda",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Gabriel Ávalos",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Gastón Olveira",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Matías Galarza",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Gustavo Caballero",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Isidro Pitta",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Alexandro Maidana",
+      "age": 20,
+      "position": "Defensor",
+      "goals": 1
+    }
+  ],
+  "Portugal": [
+    {
+      "name": "Diogo Costa",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Nélson Semedo",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Rúben Dias",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Tomás Araújo",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Diogo Dalot",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Matheus Nunes",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "age": 41,
+      "position": "Atacante",
+      "goals": 43
+    },
+    {
+      "name": "Bruno Fernandes",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 29
+    },
+    {
+      "name": "Gonçalo Guedes",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Bernardo Silva",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 14
+    },
+    {
+      "name": "João Félix",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "José Sá",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Renato Veiga",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Gonçalo Inácio",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "João Neves",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Francisco Conceição",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Rafael Leão",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Pedro Neto",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Gonçalo Ramos",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "João Cancelo",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 12
+    },
+    {
+      "name": "Rúben Neves",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Rui Silva",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Vitinha",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Samuel Costa",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Nuno Mendes",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Trincão",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 4
+    }
+  ],
+  "Catar": [
+    {
+      "name": "Mahmoud Abunada",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Pedro Miguel",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 34
+    },
+    {
+      "name": "Lucas Mendes",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Issa Laye",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jassem Gaber",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Abdulaziz Hatem",
+      "age": 36,
+      "position": "Meio-campista",
+      "goals": 11
+    },
+    {
+      "name": "Ahmed Fathy",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Edmilson Junior",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Mohammed Muntari",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 17
+    },
+    {
+      "name": "Hasan Al-Haydos",
+      "age": 35,
+      "position": "Atacante",
+      "goals": 39
+    },
+    {
+      "name": "Akram Afif",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 40
+    },
+    {
+      "name": "Karim Boudiaf",
+      "age": 35,
+      "position": "Meio-campista",
+      "goals": 96
+    },
+    {
+      "name": "Ayoub Al-Alawi",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Homam Ahmed",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Youssef Abdulrazzaq",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Boualem Khoukhi",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 21
+    },
+    {
+      "name": "Ahmed Al-Ganehi",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Sultan Al-Brake",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "AlMoez Ali",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 58
+    },
+    {
+      "name": "Ahmed Alaa",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Salah Zakaria",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Meshaal Barsham",
+      "age": 28,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Assim Madibo",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Tahsin Mohammed",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Al-Hashmi Al-Hussain",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mohamed Mannaj",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 0
+    }
+  ],
+  "Arábia Saudita": [
+    {
+      "name": "Nawaf Al Aqidi",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ali Lajami",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ali Majrashi",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Abdulelah Al Amri",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Hassan Kadesh",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Nasser Al Dawsari",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Musab Al Juwayr",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Ayman Yahya",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Feras Al Brikan",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 16
+    },
+    {
+      "name": "Salem Al Dawsari",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 27
+    },
+    {
+      "name": "Saleh Al Shehri",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 17
+    },
+    {
+      "name": "Saud Abdulhamid",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Nawaf Boushal",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Hassan Tambakti",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Abdullah Al Khaibari",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Ziyad Al Johani",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Khalid Al Ghannam",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Alaa Al Hajji",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Abdullah Al Hamdan",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 13
+    },
+    {
+      "name": "Sultan Mandash",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Mohammed Al Owais",
+      "age": 34,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ahmed Al Kassar",
+      "age": 35,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Mohammed Kanno",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 8
+    },
+    {
+      "name": "Moteb Al Harbi",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jehad Thikri",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mohammed Abu Al Shamat",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Escócia": [
+    {
+      "name": "Angus Gunn",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Aaron Hickey",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Andy Robertson",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Grant Hanley",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Kieran Tierney",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Tyller Fletcher",
+      "age": 19,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Lyndon Dykes",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Che Adams",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 13
+    },
+    {
+      "name": "Ryan Christie",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Liam Kelly",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Jack Hendry",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Ross Steward",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "John Souttar",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Dom Hyam",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ben Gannon-Doak",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "George Hirst",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Lewis Fergunson",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Lawrence Shankland",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Craig Gordon",
+      "age": 43,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Nathan Patterson",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Anthony Ralston",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Findlay Curtis",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 1
+    }
+  ],
+  "Senegal": [
+    {
+      "name": "Yehvann Diouf",
+      "age": 26,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Mamadou Sarr",
+      "age": 20,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kalidou Koulibaly",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 52
+    },
+    {
+      "name": "Abdoulaye Seck",
+      "age": 34,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Idrissa Gana Gueye",
+      "age": 36,
+      "position": "Meio-campista",
+      "goals": 77
+    },
+    {
+      "name": "Pathé Ciss",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Assane Diao",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Lamine Camara",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 7
+    },
+    {
+      "name": "Bamba Dieng",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Sadio Mané",
+      "age": 34,
+      "position": "Atacante",
+      "goals": 54
+    },
+    {
+      "name": "Nicolas Jackson",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Iliman Ndiaye",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Chérif Ndiaye",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Ismail Jakobs",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Krépin Diatta",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Édouard Mendy",
+      "age": 34,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Pape Matar Sarr",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Ismaila Sarr",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 19
+    },
+    {
+      "name": "Moussa Niakhaté",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ibrahim Mbaye",
+      "age": 18,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Habib Diarra",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Bara Sapoko Ndiaye",
+      "age": 18,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Mory Diaw",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Antoine Mendy",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "El Hadji Malich Diouf",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Pape Gueye",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 6
+    }
+  ],
+  "África do Sul": [
+    {
+      "name": "Ronwen Williams",
+      "age": 34,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Thabang Matuludi",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Khulumani Ndamane",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Teboho Mokoena",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Thalente Mbatha",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Aubrey Modiba",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Oswin Appollis",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Tshepang Moremi",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Lyle Foster",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 10
+    },
+    {
+      "name": "Relebohile Mofokeng",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Themba Zwane",
+      "age": 36,
+      "position": "Meio-campista",
+      "goals": 12
+    },
+    {
+      "name": "Thapelo Maseko",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Sphephelo Sithole",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Mbekezeli Mbokazi",
+      "age": 20,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Iqraam Rayners",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Sipho Chaine",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Evidence Makgopa",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Samukelo Kabini",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Nkosinathi Sibisi",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Khuliso Mudau",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ime Okon",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Ricardo Goss",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Jayden Adams",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Olwethu Makhanya",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Kamogelo Sebelebele",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Bradley Cross",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    }
+  ],
+  "Espanha": [
+    {
+      "name": "David Raya",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Arnau Pubill",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Álex Grimaldo",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Eric García",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Marcos Llorente",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mikel Merino",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Ferran Torres",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 24
+    },
+    {
+      "name": "Fabián Ruiz",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Gavi",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Dani Olmo",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "Yeremy Pino",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Pedro Porro",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Joan García",
+      "age": 25,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Aymeric Laporte",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Álex Baena",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Rodri",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Nico Williams",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Martín Zubimendi",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Lamine Yamal",
+      "age": 18,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Pedri",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 6
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 25
+    },
+    {
+      "name": "Pau Cubarsí",
+      "age": 19,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Unai Simón",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Marc Cucurella",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Víctor Muñoz",
+      "age": 22,
+      "position": "Atacante",
+      "goals": 1
+    },
+    {
+      "name": "Borja Iglesias",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 0
+    }
+  ],
+  "Suécia": [
+    {
+      "name": "Jacob Zetterström",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Gustaf Lagerbielke",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Victor Lindelöf",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Isak Hien",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Gabriel Gudmundsson",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Herman Johansson",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Lucas Bergvall",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Daniel Svensson",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Alexander Isak",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 18
+    },
+    {
+      "name": "Benjamin Nygren",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Anthony Elanga",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Viktor Johansson",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ken Sema",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Hjalmar Ekdal",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Carl Starfelt",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jesper Karlstrom",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Viktor Gyökeres",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 21
+    },
+    {
+      "name": "Yasin Ayari",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Mattias Svanberg",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Eric Smith",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Alexander Bernhardsson",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Besfort Zenelie",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Kristoffer Nordfeldt",
+      "age": 36,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Elliot Stroud",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Gustaf Nilsson",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Taha Ali",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 0
+    }
+  ],
+  "Suíça": [
+    {
+      "name": "Gregor Kobel",
+      "age": 28,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Miro Muheim",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Silvan Widmer",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 5
+    },
+    {
+      "name": "Nico Elvedi",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Manuel Akanji",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Denis Zakaria",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Breel Embolo",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 25
+    },
+    {
+      "name": "Remo Freuler",
+      "age": 34,
+      "position": "Meio-campista",
+      "goals": 11
+    },
+    {
+      "name": "Johan Manzambi",
+      "age": 20,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Granit Xhaka",
+      "age": 33,
+      "position": "Meio-campista",
+      "goals": 18
+    },
+    {
+      "name": "Dan Ndoye",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 8
+    },
+    {
+      "name": "Yvon Mvogo",
+      "age": 32,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ricardo Rodriguez",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 9
+    },
+    {
+      "name": "Ardon Jashari",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Djibril Sow",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Christian Fassnacht",
+      "age": 32,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Ruben Vargas",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 12
+    },
+    {
+      "name": "Eray Comert",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Noah Okafor",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Michel Aebischer",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Marvin Keller",
+      "age": 23,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Fabian Rieder",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Zeki Amdouni",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 11
+    },
+    {
+      "name": "Aurele Amenda",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Luca Jaquez",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Cedric Itten",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 5
+    }
+  ],
+  "Tunísia": [
+    {
+      "name": "Abdelmouhib Chamakh",
+      "age": 24,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ali Abdi",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 7
+    },
+    {
+      "name": "Montassar Talbi",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 4
+    },
+    {
+      "name": "Omar Rekik",
+      "age": 24,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Adem Arous",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Dylan Bronn",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Elias Achouri",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Elias Saäd",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Hazem Mastouri",
+      "age": 29,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Mohamed Hadj-Mahmoud",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Ismaël Gharbi",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Ben Hmida",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Rani Khedira",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Khalil Ayari",
+      "age": 21,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Hannbial",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Aymen Dahmen",
+      "age": 29,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Ellyes Skhiri",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Rayan Elloumi",
+      "age": 18,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Firas Chawat",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Yan Valéry",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Mortadha Ben Ouanes",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Sabri Ben Hassen",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Moutaz Neffati",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Raed Chikhaoui",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Anis Ben Slimane",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Sebastian Tounekti",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 1
+    }
+  ],
+  "Turquia": [
+    {
+      "name": "Mert Günok",
+      "age": 37,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Zeki Celik",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Merih Demiral",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 6
+    },
+    {
+      "name": "Caglar Soyuncu",
+      "age": 30,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Salih Ozcan",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Orkun Kökçü",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Kerem Akturkoglu",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 15
+    },
+    {
+      "name": "Arda Güler",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Deniz Gül",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Hakan Calhanoglu",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 22
+    },
+    {
+      "name": "Kenan Yildiz",
+      "age": 21,
+      "position": "Atacante",
+      "goals": 5
+    },
+    {
+      "name": "Altay Bayindir",
+      "age": 28,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Eren Elmalı",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Abdulkerim Bardakci",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Ozan Kabak",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Ismail Yuksek",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Irfan Can Kahveci",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 6
+    },
+    {
+      "name": "Mert Müldür",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Yunus Akgun",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Ferdi Kadıoğlu",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Barış Alper Yılmaz",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Kaan Ayhan",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Ugurcan Cakir",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Oguz Aydin",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 0
+    },
+    {
+      "name": "Akaydin",
+      "age": 32,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Can Uzun",
+      "age": 20,
+      "position": "Atacante",
+      "goals": 1
+    }
+  ],
+  "Uruguai": [
+    {
+      "name": "Sergio Rochet",
+      "age": 33,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "José María Giménez",
+      "age": 31,
+      "position": "Defensor",
+      "goals": 8
+    },
+    {
+      "name": "Sebastián Cáceres",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Ronald Araujo",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Manuel Ugarte",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Rodrigo Bentancur",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Giorgian De Arrascaeta",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Frederico Valverde",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 9
+    },
+    {
+      "name": "Darwin Núñez",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 13
+    },
+    {
+      "name": "Nicolás De La Cruz",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 13
+    },
+    {
+      "name": "Facundo Pellistri",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Santiago Mele",
+      "age": 28,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Guillermo Varela",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Agustín Canobbio",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Emiliano Martínez",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Mathías Olivera",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Matías Viña",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Brian Rodríguez",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 4
+    },
+    {
+      "name": "Rodrigo Aguirre",
+      "age": 31,
+      "position": "Atacante",
+      "goals": 3
+    },
+    {
+      "name": "Maximiliano Araújo",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Federico Viñas",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Joaquín Piquerez",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Fernando Muslera",
+      "age": 40,
+      "position": "Goleiro",
+      "goals": 50
+    },
+    {
+      "name": "Santiago Bueno",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Juan Manuel Sanabria",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Rodrigo Zalazar",
+      "age": 26,
+      "position": "Meio-campista",
+      "goals": 2
+    }
+  ],
+  "Estados Unidos": [
+    {
+      "name": "Matt Turner",
+      "age": 31,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Sergiño Dest",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Chris Richards",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Tyler Adams",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 2
+    },
+    {
+      "name": "Antonee Robinson",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 5
+    },
+    {
+      "name": "Auston Trusty",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Gio Reyna",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Ricardo Pepi",
+      "age": 23,
+      "position": "Atacante",
+      "goals": 13
+    },
+    {
+      "name": "Christian Pulisic",
+      "age": 27,
+      "position": "Atacante",
+      "goals": 33
+    },
+    {
+      "name": "Brenden Aaronson",
+      "age": 25,
+      "position": "Atacante",
+      "goals": 9
+    },
+    {
+      "name": "Miles Robinson",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Tim Ream",
+      "age": 38,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Weston McKennie",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Cristian Roldan",
+      "age": 31,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Alex Freeman",
+      "age": 21,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Malik Tillman",
+      "age": 24,
+      "position": "Meio-campista",
+      "goals": 3
+    },
+    {
+      "name": "Max Arfsten",
+      "age": 25,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Haji Wright",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Folarin Balogun",
+      "age": 24,
+      "position": "Atacante",
+      "goals": 11
+    },
+    {
+      "name": "Tim Weah",
+      "age": 26,
+      "position": "Atacante",
+      "goals": 7
+    },
+    {
+      "name": "Joe Scally",
+      "age": 23,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Matt Freese",
+      "age": 27,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Chris Brady",
+      "age": 22,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Alex Zendejas",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 2
+    }
+  ],
+  "Uzbequistão": [
+    {
+      "name": "Otkir Yusupov",
+      "age": 35,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Abdukodir Husanov",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Khojiakbar Alijonov",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 3
+    },
+    {
+      "name": "Farruh Sayfiyev",
+      "age": 35,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Rustam Ashurmatov",
+      "age": 29,
+      "position": "Defensor",
+      "goals": 1
+    },
+    {
+      "name": "Akmal Mozgovoy",
+      "age": 27,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Otabek Shukurov",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Jamshid Iskanderov",
+      "age": 32,
+      "position": "Meio-campista",
+      "goals": 4
+    },
+    {
+      "name": "Odijion Xamrobekov",
+      "age": 30,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Jaloliddin Masharipov",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 1
+    },
+    {
+      "name": "Oston Orunov",
+      "age": 25,
+      "position": "Meio-campista",
+      "goals": 10
+    },
+    {
+      "name": "Abduvohid Nematov",
+      "age": 25,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Sherzod Nasrullayev",
+      "age": 27,
+      "position": "Defensor",
+      "goals": 2
+    },
+    {
+      "name": "Eldor Shomurodov",
+      "age": 30,
+      "position": "Atacante",
+      "goals": 44
+    },
+    {
+      "name": "Umar Eshmurodov",
+      "age": 33,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Botirali Ergashev",
+      "age": 30,
+      "position": "Goleiro",
+      "goals": 0
+    },
+    {
+      "name": "Dostonbek Kahmdamov",
+      "age": 29,
+      "position": "Meio-campista",
+      "goals": 5
+    },
+    {
+      "name": "Abdulla Abdullaev",
+      "age": 28,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Azizjon Ganiev",
+      "age": 28,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Azizbek Amonov",
+      "age": 28,
+      "position": "Atacante",
+      "goals": 2
+    },
+    {
+      "name": "Igor Sergeev",
+      "age": 33,
+      "position": "Atacante",
+      "goals": 25
+    },
+    {
+      "name": "Abbosbek Fayzullayev",
+      "age": 22,
+      "position": "Meio-campista",
+      "goals": 9
+    },
+    {
+      "name": "Sherzod Esanov",
+      "age": 23,
+      "position": "Meio-campista",
+      "goals": 0
+    },
+    {
+      "name": "Behruz Karimov",
+      "age": 18,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Avazbek Ulmasaliyev",
+      "age": 26,
+      "position": "Defensor",
+      "goals": 0
+    },
+    {
+      "name": "Jahongir Orozov",
+      "age": 22,
+      "position": "Defensor",
+      "goals": 1
+    }
+  ]
+}

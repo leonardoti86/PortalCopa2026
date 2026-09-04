@@ -1,0 +1,694 @@
+[
+  {
+    "name": "África do Sul",
+    "code": "RSA",
+    "group": "A",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Hugo Broos",
+    "ranking": {
+      "position": 74,
+      "team": "África do Sul",
+      "points": 1332.99
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/RSA",
+    "playerCount": 26
+  },
+  {
+    "name": "Alemanha",
+    "code": "GER",
+    "group": "E",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Julian Nagelsmann",
+    "ranking": {
+      "position": 10,
+      "team": "Alemanha",
+      "points": 1735.77
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/GER",
+    "playerCount": 26
+  },
+  {
+    "name": "Arábia Saudita",
+    "code": "KSA",
+    "group": "H",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Hervé Renard",
+    "ranking": null,
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/KSA",
+    "playerCount": 26
+  },
+  {
+    "name": "Argélia",
+    "code": "ALG",
+    "group": "J",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Vladimir Petković",
+    "ranking": {
+      "position": 29,
+      "team": "Argélia",
+      "points": 1571.65
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/ALG",
+    "playerCount": 26
+  },
+  {
+    "name": "Argentina",
+    "code": "ARG",
+    "group": "J",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Lionel Scaloni",
+    "ranking": {
+      "position": 1,
+      "team": "Argentina",
+      "points": 1877.72
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/ARG",
+    "playerCount": 26
+  },
+  {
+    "name": "Austrália",
+    "code": "AUS",
+    "group": "D",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Tony Popovic",
+    "ranking": {
+      "position": 28,
+      "team": "Austrália",
+      "points": 1582.72
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUS",
+    "playerCount": 26
+  },
+  {
+    "name": "Áustria",
+    "code": "AUT",
+    "group": "J",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Ralf Rangnick",
+    "ranking": {
+      "position": 27,
+      "team": "Áustria",
+      "points": 1587.22
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/AUT",
+    "playerCount": 26
+  },
+  {
+    "name": "Bélgica",
+    "code": "BEL",
+    "group": "G",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Rudi Garcia",
+    "ranking": {
+      "position": 9,
+      "team": "Bélgica",
+      "points": 1742.24
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/BEL",
+    "playerCount": 26
+  },
+  {
+    "name": "Bósnia e Herzegovina",
+    "code": "BIH",
+    "group": "B",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Sergej Barbarez",
+    "ranking": null,
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/BIH",
+    "playerCount": 26
+  },
+  {
+    "name": "Brasil",
+    "code": "BRA",
+    "group": "C",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Carlo Ancelotti",
+    "ranking": {
+      "position": 6,
+      "team": "Brasil",
+      "points": 1765.86
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/BRA",
+    "playerCount": 23
+  },
+  {
+    "name": "Cabo Verde",
+    "code": "CPV",
+    "group": "H",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Pedro Leitão Brito",
+    "ranking": null,
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/CPV",
+    "playerCount": 26
+  },
+  {
+    "name": "Canadá",
+    "code": "CAN",
+    "group": "B",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Jesse Marsch",
+    "ranking": {
+      "position": 24,
+      "team": "Canadá",
+      "points": 1599.2
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/CAN",
+    "playerCount": 26
+  },
+  {
+    "name": "Catar",
+    "code": "QAT",
+    "group": "B",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Julen Lopetegui",
+    "ranking": {
+      "position": 55,
+      "team": "Catar",
+      "points": 1419.02
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/QAT",
+    "playerCount": 26
+  },
+  {
+    "name": "Colômbia",
+    "code": "COL",
+    "group": "K",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Néstor Lorenzo",
+    "ranking": {
+      "position": 14,
+      "team": "Colômbia",
+      "points": 1697.92
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/COL",
+    "playerCount": 26
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "code": "CIV",
+    "group": "E",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Emerse Faé",
+    "ranking": {
+      "position": 35,
+      "team": "Côte d'Ivoire",
+      "points": 1532
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/CIV",
+    "playerCount": 26
+  },
+  {
+    "name": "Croácia",
+    "code": "CRO",
+    "group": "L",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Zlatko Dalic",
+    "ranking": {
+      "position": 11,
+      "team": "Croácia",
+      "points": 1720.07
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/CRO",
+    "playerCount": 26
+  },
+  {
+    "name": "Curaçao",
+    "code": "CUW",
+    "group": "E",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Dick Advocaat",
+    "ranking": null,
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/CUW",
+    "playerCount": 26
+  },
+  {
+    "name": "Egito",
+    "code": "EGY",
+    "group": "G",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Hossam Hassan",
+    "ranking": {
+      "position": 31,
+      "team": "Egito",
+      "points": 1560.23
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/EGY",
+    "playerCount": 26
+  },
+  {
+    "name": "Equador",
+    "code": "ECU",
+    "group": "E",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Sebastián Beccacece",
+    "ranking": {
+      "position": 20,
+      "team": "Equador",
+      "points": 1635.64
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/ECU",
+    "playerCount": 26
+  },
+  {
+    "name": "Escócia",
+    "code": "SCO",
+    "group": "C",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Steve Clarke",
+    "ranking": {
+      "position": 42,
+      "team": "Escócia",
+      "points": 1497.93
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/SCO",
+    "playerCount": 22
+  },
+  {
+    "name": "Espanha",
+    "code": "ESP",
+    "group": "H",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Luis de la Fuente",
+    "ranking": {
+      "position": 2,
+      "team": "Espanha",
+      "points": 1874.71
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/ESP",
+    "playerCount": 26
+  },
+  {
+    "name": "Estados Unidos",
+    "code": "USA",
+    "group": "D",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Mauricio Pochettino",
+    "ranking": {
+      "position": 17,
+      "team": "Estados Unidos",
+      "points": 1678.82
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/USA",
+    "playerCount": 24
+  },
+  {
+    "name": "França",
+    "code": "FRA",
+    "group": "I",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Didier Deschamps",
+    "ranking": {
+      "position": 3,
+      "team": "França",
+      "points": 1870.7
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/FRA",
+    "playerCount": 26
+  },
+  {
+    "name": "Gana",
+    "code": "GHA",
+    "group": "L",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Carlos Queiroz",
+    "ranking": null,
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/GHA",
+    "playerCount": 26
+  },
+  {
+    "name": "Haiti",
+    "code": "HAI",
+    "group": "C",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Sébastien Migné",
+    "ranking": {
+      "position": 63,
+      "team": "Haiti",
+      "points": 1388.38
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/HAI",
+    "playerCount": 26
+  },
+  {
+    "name": "Holanda",
+    "code": "NED",
+    "group": "F",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Ronald Koeman",
+    "ranking": {
+      "position": 8,
+      "team": "Holanda",
+      "points": 1753.57
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/NED",
+    "playerCount": 26
+  },
+  {
+    "name": "Inglaterra",
+    "code": "ENG",
+    "group": "L",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Thomas Tuchel",
+    "ranking": {
+      "position": 4,
+      "team": "Inglaterra",
+      "points": 1828.02
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/ENG",
+    "playerCount": 26
+  },
+  {
+    "name": "Iraque",
+    "code": "IRQ",
+    "group": "I",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Graham Arnold",
+    "ranking": {
+      "position": 67,
+      "team": "Iraque",
+      "points": 1368.99
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRQ",
+    "playerCount": 26
+  },
+  {
+    "name": "Japão",
+    "code": "JPN",
+    "group": "F",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Hajime Moriyasu",
+    "ranking": {
+      "position": 18,
+      "team": "Japão",
+      "points": 1661.38
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/JPN",
+    "playerCount": 26
+  },
+  {
+    "name": "Jordânia",
+    "code": "JOR",
+    "group": "J",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Jamal Sellami",
+    "ranking": {
+      "position": 61,
+      "team": "Jordânia",
+      "points": 1397.9
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/JOR",
+    "playerCount": 26
+  },
+  {
+    "name": "Marrocos",
+    "code": "MAR",
+    "group": "C",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Mohamed Ouahbi",
+    "ranking": {
+      "position": 7,
+      "team": "Marrocos",
+      "points": 1755.1
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/MAR",
+    "playerCount": 26
+  },
+  {
+    "name": "México",
+    "code": "MEX",
+    "group": "A",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Javier Aguirre",
+    "ranking": {
+      "position": 15,
+      "team": "México",
+      "points": 1685.68
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/MEX",
+    "playerCount": 26
+  },
+  {
+    "name": "Noruega",
+    "code": "NOR",
+    "group": "I",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Ståle Solbakken",
+    "ranking": {
+      "position": 32,
+      "team": "Noruega",
+      "points": 1551.81
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/NOR",
+    "playerCount": 26
+  },
+  {
+    "name": "Nova Zelândia",
+    "code": "NZL",
+    "group": "G",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Darren Bazeley",
+    "ranking": null,
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/NZL",
+    "playerCount": 25
+  },
+  {
+    "name": "Panamá",
+    "code": "PAN",
+    "group": "L",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Thomas Christiansen",
+    "ranking": {
+      "position": 33,
+      "team": "Panamá",
+      "points": 1550.44
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAN",
+    "playerCount": 26
+  },
+  {
+    "name": "Paraguai",
+    "code": "PAR",
+    "group": "D",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Gustavo Alfaro",
+    "ranking": {
+      "position": 44,
+      "team": "Paraguai",
+      "points": 1485.42
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/PAR",
+    "playerCount": 26
+  },
+  {
+    "name": "Portugal",
+    "code": "POR",
+    "group": "K",
+    "pot": 1,
+    "isCabecaDeChave": true,
+    "coach": "Roberto Martínez",
+    "ranking": {
+      "position": 5,
+      "team": "Portugal",
+      "points": 1767.85
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/POR",
+    "playerCount": 26
+  },
+  {
+    "name": "República da Coreia",
+    "code": "KOR",
+    "group": "A",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Hong Myung-bo",
+    "ranking": {
+      "position": 25,
+      "team": "República da Coreia",
+      "points": 1590.69
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/KOR",
+    "playerCount": 26
+  },
+  {
+    "name": "República Democrática do Congo",
+    "code": "COD",
+    "group": "K",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Sébastien Desabre",
+    "ranking": {
+      "position": 50,
+      "team": "República Democrática do Congo",
+      "points": 1473
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/COD",
+    "playerCount": 26
+  },
+  {
+    "name": "República Islâmica do Irã",
+    "code": "IRN",
+    "group": "G",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Amir Ghalenoei",
+    "ranking": {
+      "position": 23,
+      "team": "República Islâmica do Irã",
+      "points": 1600.01
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/IRN",
+    "playerCount": 26
+  },
+  {
+    "name": "Senegal",
+    "code": "SEN",
+    "group": "I",
+    "pot": 2,
+    "isCabecaDeChave": false,
+    "coach": "Pape Thiaw",
+    "ranking": {
+      "position": 16,
+      "team": "Senegal",
+      "points": 1682.54
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/SEN",
+    "playerCount": 26
+  },
+  {
+    "name": "Suécia",
+    "code": "SWE",
+    "group": "F",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Graham Potter",
+    "ranking": {
+      "position": 38,
+      "team": "Suécia",
+      "points": 1515.88
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/SWE",
+    "playerCount": 26
+  },
+  {
+    "name": "Suíça",
+    "code": "SUI",
+    "group": "B",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Murat Yakin",
+    "ranking": {
+      "position": 19,
+      "team": "Suíça",
+      "points": 1652.43
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/SUI",
+    "playerCount": 26
+  },
+  {
+    "name": "Tchéquia",
+    "code": "CZE",
+    "group": "A",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Miroslav Koubek",
+    "ranking": {
+      "position": 39,
+      "team": "Tchéquia",
+      "points": 1510.15
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/CZE",
+    "playerCount": 26
+  },
+  {
+    "name": "Tunísia",
+    "code": "TUN",
+    "group": "F",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Sabri Lamouchi",
+    "ranking": {
+      "position": 40,
+      "team": "Tunísia",
+      "points": 1504.92
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUN",
+    "playerCount": 26
+  },
+  {
+    "name": "Turquia",
+    "code": "TUR",
+    "group": "D",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Vincenzo Montella",
+    "ranking": {
+      "position": 22,
+      "team": "Turquia",
+      "points": 1602.95
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/TUR",
+    "playerCount": 26
+  },
+  {
+    "name": "Uruguai",
+    "code": "URU",
+    "group": "H",
+    "pot": 4,
+    "isCabecaDeChave": false,
+    "coach": "Marcelo Bielsa",
+    "ranking": {
+      "position": 13,
+      "team": "Uruguai",
+      "points": 1702.35
+    },
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/URU",
+    "playerCount": 26
+  },
+  {
+    "name": "Uzbequistão",
+    "code": "UZB",
+    "group": "K",
+    "pot": 3,
+    "isCabecaDeChave": false,
+    "coach": "Fabio Cannavaro",
+    "ranking": null,
+    "flagUrl": "https://api.fifa.com/api/v3/picture/flags-sq-4/UZB",
+    "playerCount": 26
+  }
+]

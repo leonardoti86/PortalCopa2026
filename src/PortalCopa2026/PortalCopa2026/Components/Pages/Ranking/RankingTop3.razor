@@ -1,0 +1,17 @@
+<div class="ranking-top3">
+    @foreach (var item in Top3)
+    {
+        <div class="ranking-top3__card ranking-top3__card--pos-@item.Posicao">
+            <span class="ranking-top3__posicao">@(item.Posicao)º</span>
+            <img class="ranking-top3__flag" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@item.SelecaoCodigo" alt="Bandeira de @item.SelecaoNome" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <span class="ranking-top3__nome">@item.SelecaoNome</span>
+            <span class="ranking-top3__pontos">@item.Pontos.ToString("F2") pts</span>
+            <span class="ranking-top3__grupo">Grupo @item.Grupo</span>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<RankingPosicaoDto> Top3 { get; set; } = Array.Empty<RankingPosicaoDto>();
+}

@@ -1,0 +1,139 @@
+/* Estilos complementares da página de Seleções, sobre a base do Bootstrap 5.
+   Reaproveita os tokens de cor definidos em landing-page.css (--lp-color-*)
+   e o padrão visual das seções .team-search/.team-grid-card/.team-detail__*/.player-list
+   do protótipo (../prototipo/css/styles.css). */
+
+.selecoes-filtro {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.selecoes-filtro__busca {
+    flex: 1;
+    min-width: 160px;
+}
+
+.selecoes-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    border: 1px solid var(--lp-color-border);
+    border-radius: var(--lp-radius);
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.selecoes-card:hover {
+    border-color: var(--lp-color-primary);
+}
+
+.selecoes-card__flag {
+    width: 32px;
+    height: 22px;
+    object-fit: cover;
+    border-radius: 3px;
+    background: #eee;
+    flex-shrink: 0;
+}
+
+.selecoes-card__info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.selecoes-card__nome {
+    font-weight: 600;
+    font-size: .9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.selecoes-card__grupo {
+    font-size: .72rem;
+    color: var(--lp-color-text-muted);
+}
+
+.selecoes-modal__loading {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--lp-color-text-muted);
+}
+
+.selecoes-modal__titulo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.selecoes-modal__flag {
+    width: 48px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #eee;
+}
+
+.selecoes-modal__meta {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    font-size: .85rem;
+    color: var(--lp-color-text-muted);
+}
+
+.selecoes-modal__meta strong {
+    color: var(--lp-color-navy);
+    display: block;
+    font-size: .95rem;
+}
+
+.selecoes-elenco {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 8px;
+}
+
+.selecoes-elenco__jogador {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px;
+    align-items: center;
+    background: var(--lp-color-bg-alt);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: .85rem;
+}
+
+.selecoes-elenco__nome {
+    font-weight: 600;
+}
+
+.selecoes-elenco__posicao {
+    display: block;
+    font-size: .68rem;
+    font-weight: 400;
+    color: var(--lp-color-text-muted);
+}
+
+.selecoes-elenco__stat {
+    text-align: center;
+    min-width: 46px;
+}
+
+.selecoes-elenco__stat-lbl {
+    display: block;
+    font-size: .62rem;
+    text-transform: uppercase;
+    color: var(--lp-color-text-muted);
+}

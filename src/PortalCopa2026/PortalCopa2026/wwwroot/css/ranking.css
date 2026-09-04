@@ -1,0 +1,112 @@
+/* Estilos complementares da página de Ranking FIFA, sobre a base do Bootstrap 5.
+   Reaproveita os tokens de cor e o gradiente escuro definidos em landing-page.css (--lp-color-*, .lp-hero). */
+
+.ranking-top3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.ranking-top3__card {
+    background: linear-gradient(135deg, var(--lp-color-navy) 0%, var(--lp-color-primary-dark) 55%, var(--lp-color-primary) 100%);
+    color: #fff;
+    border-radius: var(--lp-radius);
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.ranking-top3__posicao {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--lp-color-accent);
+}
+
+.ranking-top3__flag {
+    width: 40px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, .15);
+}
+
+.ranking-top3__nome {
+    font-weight: 700;
+}
+
+.ranking-top3__pontos {
+    color: #e7ecea;
+    font-size: .85rem;
+}
+
+.ranking-top3__grupo {
+    font-size: .72rem;
+    color: rgba(255, 255, 255, .75);
+    text-transform: uppercase;
+}
+
+.ranking-tabela-wrap {
+    background: #fff;
+    border: 1px solid var(--lp-color-border);
+    border-radius: var(--lp-radius);
+    overflow-x: auto;
+    margin-bottom: 24px;
+}
+
+.ranking-tabela__selecao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ranking-tabela__flag {
+    width: 28px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 3px;
+    background: #eee;
+    flex-shrink: 0;
+}
+
+.ranking-sem-posicao__nota {
+    color: var(--lp-color-text-muted);
+    font-size: .85rem;
+}
+
+.ranking-sem-posicao__lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 8px;
+}
+
+.ranking-sem-posicao__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--lp-color-bg-alt);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: .85rem;
+}
+
+.ranking-sem-posicao__flag {
+    width: 24px;
+    height: 17px;
+    object-fit: cover;
+    border-radius: 3px;
+    background: #eee;
+    flex-shrink: 0;
+}
+
+.ranking-sem-posicao__grupo {
+    margin-left: auto;
+    font-size: .72rem;
+    color: var(--lp-color-text-muted);
+}

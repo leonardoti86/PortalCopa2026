@@ -1,0 +1,27 @@
+@page "/"
+@rendermode InteractiveServer
+@inject ILandingPageService LandingPageService
+
+<PageTitle>PortalCopa26 — Copa do Mundo FIFA 2026</PageTitle>
+
+<HeroSection />
+<EstatisticasCopa Estatisticas="_estatisticas" />
+<ProximosJogos Jogos="_proximosJogos" />
+<RankingFifaChart Ranking="_ranking" />
+<SimuladorPainel />
+
+@code {
+    private const int QuantidadeProximosJogos = 6;
+    private const int QuantidadeRankingTop = 10;
+
+    private CopaEstatisticasDto _estatisticas = new(0, 0, 0);
+    private IReadOnlyList<ProximoJogoDto> _proximosJogos = Array.Empty<ProximoJogoDto>();
+    private IReadOnlyList<RankingItemDto> _ranking = Array.Empty<RankingItemDto>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _estatisticas = await LandingPageService.ObterEstatisticasAsync();
+        _proximosJogos = await LandingPageService.ObterProximosJogosAsync(QuantidadeProximosJogos);
+        _ranking = await LandingPageService.ObterRankingTopAsync(QuantidadeRankingTop);
+    }
+}

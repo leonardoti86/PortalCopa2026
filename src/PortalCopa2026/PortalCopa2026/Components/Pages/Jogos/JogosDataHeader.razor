@@ -1,0 +1,16 @@
+@using System.Globalization
+
+<h3 class="jg-data-header">@FormatarData(Data)</h3>
+
+@code {
+    [Parameter, EditorRequired]
+    public DateOnly Data { get; set; }
+
+    private static readonly CultureInfo PtBr = new("pt-BR");
+
+    private static string FormatarData(DateOnly data)
+    {
+        var texto = data.ToDateTime(TimeOnly.MinValue).ToString("dddd, dd 'de' MMMM", PtBr);
+        return char.ToUpper(texto[0], PtBr) + texto[1..];
+    }
+}

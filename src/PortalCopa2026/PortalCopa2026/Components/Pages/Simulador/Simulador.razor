@@ -1,0 +1,69 @@
+@page "/simulador"
+@rendermode InteractiveServer
+@inject ISimuladorService SimuladorService
+
+<PageTitle>Simulador — PortalCopa26</PageTitle>
+
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Simulador da fase de grupos</h2>
+        </div>
+
+        @if (_estado is null)
+        {
+            <div class="lp-empty-state">
+                <p>Carregando simulação...</p>
+            </div>
+        }
+        else
+        {
+            <ul class="nav nav-tabs sim-tabs" role="tablist">
+                @foreach (var classificacao in _estado.Classificacoes)
+                {
+                    <li class="nav-item" role="presentation">
+                        <button type="button"
+                                class="nav-link @(classificacao.Grupo == _grupoAtivo ? "active" : "")"
+                                @onclick="() => SelecionarGrupo(classificacao.Grupo)">
+                            Grupo @classificacao.Grupo
+                        </button>
+                    </li>
+                }
+            </ul>
+
+            @if (GrupoAtivoJogos is not null && GrupoAtivoClassificacao is not null)
+            {
+                <SimuladorGrupo Jogos="GrupoAtivoJogos" Classificacao="GrupoAtivoClassificacao" PlacarAlterado="OnPlacarAlteradoAsync" />
+            }
+
+            <SimuladorResumo RankingTerceiros="_estado.RankingTerceiros" TotalJogos="_estado.TotalJogos" JogosSimulados="_estado.JogosSimulados" />
+        }
+    </div>
+</section>
+
+@code {
+    private SimuladorEstadoDto? _estado;
+    private string? _grupoAtivo;
+
+    private IReadOnlyList<SimuladorJogoDto>? GrupoAtivoJogos =>
+        _estado?.Jogos.Where(j => j.Grupo == _grupoAtivo).ToList();
+
+    private ClassificacaoGrupoDto? GrupoAtivoClassificacao =>
+        _estado?.Classificacoes.FirstOrDefault(c => c.Grupo == _grupoAtivo);
+
+    protected override async Task OnInitializedAsync()
+    {
+        _estado = await SimuladorService.ObterEstadoAtualAsync();
+        _grupoAtivo = _estado.Classificacoes.FirstOrDefault()?.Grupo;
+    }
+
+    private void SelecionarGrupo(string grupo)
+    {
+        _grupoAtivo = grupo;
+    }
+
+    private async Task OnPlacarAlteradoAsync((int JogoId, int? PlacarMandante, int? PlacarVisitante) alteracao)
+    {
+        _estado = await SimuladorService.AtualizarPlacarAsync(alteracao.JogoId, alteracao.PlacarMandante, alteracao.PlacarVisitante);
+    }
+}

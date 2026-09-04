@@ -1,0 +1,15 @@
+<button type="button" class="selecoes-card" @onclick="() => Selecionada.InvokeAsync(Selecao.Id)">
+    <img class="selecoes-card__flag" src="@Selecao.FlagUrl" alt="Bandeira de @Selecao.Nome" loading="lazy" onerror="this.style.visibility='hidden'" />
+    <span class="selecoes-card__info">
+        <span class="selecoes-card__nome">@Selecao.Nome</span>
+        <span class="selecoes-card__grupo">@Selecao.Codigo · Grupo @Selecao.GrupoCodigo</span>
+    </span>
+</button>
+
+@code {
+    [Parameter, EditorRequired]
+    public SelecaoResumoDto Selecao { get; set; } = null!;
+
+    [Parameter]
+    public EventCallback<int> Selecionada { get; set; }
+}

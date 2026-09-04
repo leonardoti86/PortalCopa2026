@@ -1,0 +1,77 @@
+@page "/grupos"
+@rendermode InteractiveServer
+@inject IGruposService GruposService
+
+<PageTitle>Grupos — PortalCopa26</PageTitle>
+
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Grupos</h2>
+            <p>12 grupos · 48 seleções · Fase de grupos da Copa do Mundo FIFA 2026</p>
+        </div>
+
+        <div class="grupos-legenda d-flex flex-wrap gap-3 small text-body-secondary mb-3">
+            <span class="d-inline-flex align-items-center gap-1">
+                <span class="grupos-legenda__marcador grupos-legenda__marcador--classificado"></span> Classificado (1º e 2º)
+            </span>
+            <span class="d-inline-flex align-items-center gap-1">
+                <span class="grupos-legenda__marcador grupos-legenda__marcador--wildcard"></span> Possível vaga de melhor terceiro (3º)
+            </span>
+        </div>
+
+        @if (_estado is null)
+        {
+            <div class="lp-empty-state">
+                <p>Carregando grupos...</p>
+            </div>
+        }
+        else
+        {
+            <ul class="nav nav-tabs grupos-tabs" role="tablist">
+                @foreach (var classificacao in _estado.Classificacoes)
+                {
+                    <li class="nav-item" role="presentation">
+                        <button type="button"
+                                class="nav-link @(classificacao.Grupo == _grupoAtivo ? "active" : "")"
+                                @onclick="() => SelecionarGrupo(classificacao.Grupo)">
+                            Grupo @classificacao.Grupo
+                        </button>
+                    </li>
+                }
+            </ul>
+
+            @if (GrupoAtivoJogos is not null && GrupoAtivoClassificacao is not null)
+            {
+                <GrupoBloco Jogos="GrupoAtivoJogos" Classificacao="GrupoAtivoClassificacao" PlacarAlterado="OnPlacarAlteradoAsync" />
+            }
+        }
+    </div>
+</section>
+
+@code {
+    private GruposEstadoDto? _estado;
+    private string? _grupoAtivo;
+
+    private IReadOnlyList<GrupoJogoDto>? GrupoAtivoJogos =>
+        _estado?.Jogos.Where(j => j.Grupo == _grupoAtivo).ToList();
+
+    private ClassificacaoGrupoDto? GrupoAtivoClassificacao =>
+        _estado?.Classificacoes.FirstOrDefault(c => c.Grupo == _grupoAtivo);
+
+    protected override async Task OnInitializedAsync()
+    {
+        _estado = await GruposService.ObterEstadoAtualAsync();
+        _grupoAtivo = _estado.Classificacoes.FirstOrDefault()?.Grupo;
+    }
+
+    private void SelecionarGrupo(string grupo)
+    {
+        _grupoAtivo = grupo;
+    }
+
+    private async Task OnPlacarAlteradoAsync((int JogoId, int? PlacarMandante, int? PlacarVisitante) alteracao)
+    {
+        _estado = await GruposService.AtualizarPlacarOficialAsync(alteracao.JogoId, alteracao.PlacarMandante, alteracao.PlacarVisitante);
+    }
+}

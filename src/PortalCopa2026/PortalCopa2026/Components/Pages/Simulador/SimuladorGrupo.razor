@@ -1,0 +1,24 @@
+<div class="sim-grupo">
+    <div class="sim-grupo__jogos">
+        <h3 class="sim-grupo__titulo">Grupo @Classificacao.Grupo — Placares</h3>
+        @foreach (var jogo in Jogos)
+        {
+            <SimuladorJogo @key="jogo.JogoId" Jogo="jogo" PlacarAlterado="PlacarAlterado" />
+        }
+    </div>
+    <div class="sim-grupo__classificacao">
+        <h3 class="sim-grupo__titulo">Classificação — Grupo @Classificacao.Grupo</h3>
+        <ClassificacaoGrupo Classificacao="Classificacao" />
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<SimuladorJogoDto> Jogos { get; set; } = Array.Empty<SimuladorJogoDto>();
+
+    [Parameter, EditorRequired]
+    public ClassificacaoGrupoDto Classificacao { get; set; } = null!;
+
+    [Parameter]
+    public EventCallback<(int JogoId, int? PlacarMandante, int? PlacarVisitante)> PlacarAlterado { get; set; }
+}

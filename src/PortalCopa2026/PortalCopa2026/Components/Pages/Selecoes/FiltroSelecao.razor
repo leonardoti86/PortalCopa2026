@@ -1,0 +1,39 @@
+<div class="selecoes-filtro">
+    <input type="text" class="form-control selecoes-filtro__busca" placeholder="Buscar seleção..."
+           value="@Busca" @oninput="OnBuscaChangedAsync" aria-label="Buscar seleção por nome" />
+    <select class="form-select selecoes-filtro__grupo" style="max-width: 220px;"
+            value="@GrupoSelecionado" @onchange="OnGrupoChangedAsync" aria-label="Filtrar por grupo">
+        <option value="">Todos os grupos</option>
+        @foreach (var grupo in Grupos)
+        {
+            <option value="@grupo">Grupo @grupo</option>
+        }
+    </select>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<string> Grupos { get; set; } = Array.Empty<string>();
+
+    [Parameter]
+    public string Busca { get; set; } = string.Empty;
+
+    [Parameter]
+    public EventCallback<string> BuscaChanged { get; set; }
+
+    [Parameter]
+    public string? GrupoSelecionado { get; set; }
+
+    [Parameter]
+    public EventCallback<string?> GrupoSelecionadoChanged { get; set; }
+
+    private Task OnBuscaChangedAsync(ChangeEventArgs e) =>
+        BuscaChanged.InvokeAsync(e.Value?.ToString() ?? string.Empty);
+
+    private Task OnGrupoChangedAsync(ChangeEventArgs e)
+    {
+        var valor = e.Value?.ToString();
+        var novoGrupo = string.IsNullOrEmpty(valor) ? null : valor;
+        return GrupoSelecionadoChanged.InvokeAsync(novoGrupo);
+    }
+}

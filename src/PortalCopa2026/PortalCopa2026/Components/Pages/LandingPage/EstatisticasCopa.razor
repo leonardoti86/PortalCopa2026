@@ -1,0 +1,19 @@
+<div class="lp-stats-row container">
+    <div class="lp-stat-tile">
+        <div class="lp-stat-tile__value">@Estatisticas.TotalSelecoes</div>
+        <div class="lp-stat-tile__label">Seleções</div>
+    </div>
+    <div class="lp-stat-tile">
+        <div class="lp-stat-tile__value">@Estatisticas.TotalCidadesSede</div>
+        <div class="lp-stat-tile__label">Cidades-sede</div>
+    </div>
+    <div class="lp-stat-tile">
+        <div class="lp-stat-tile__value">@Estatisticas.TotalJogos</div>
+        <div class="lp-stat-tile__label">Jogos</div>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public CopaEstatisticasDto Estatisticas { get; set; } = default!;
+}

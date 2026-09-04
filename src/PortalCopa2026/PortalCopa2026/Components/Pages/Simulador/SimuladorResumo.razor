@@ -1,0 +1,32 @@
+<div class="sim-resumo">
+    <div class="sim-resumo__progresso">
+        <span class="sim-resumo__progresso-label">Progresso da simulação</span>
+        <div class="progress" role="progressbar" aria-valuenow="@JogosSimulados" aria-valuemin="0" aria-valuemax="@TotalJogos">
+            <div class="progress-bar" style="width: @(PercentualConcluido)%"></div>
+        </div>
+        <span class="sim-resumo__progresso-texto">@JogosSimulados de @TotalJogos jogos simulados</span>
+    </div>
+
+    <h3 class="sim-grupo__titulo">Melhores terceiros colocados (Wildcards)</h3>
+    <ClassificacaoGrupo Classificacao="_classificacaoTerceiros" />
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public IReadOnlyList<ClassificacaoTimeDto> RankingTerceiros { get; set; } = Array.Empty<ClassificacaoTimeDto>();
+
+    [Parameter]
+    public int TotalJogos { get; set; }
+
+    [Parameter]
+    public int JogosSimulados { get; set; }
+
+    private ClassificacaoGrupoDto _classificacaoTerceiros = new("Terceiros", Array.Empty<ClassificacaoTimeDto>());
+
+    private int PercentualConcluido => TotalJogos == 0 ? 0 : (int)Math.Round(JogosSimulados * 100.0 / TotalJogos);
+
+    protected override void OnParametersSet()
+    {
+        _classificacaoTerceiros = new ClassificacaoGrupoDto("Terceiros", RankingTerceiros);
+    }
+}

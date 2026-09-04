@@ -1,0 +1,26 @@
+<div class="lp-match-card jg-match-card">
+    <div class="lp-match-card__meta">
+        <span>@Jogo.Horario.ToString("HH:mm")</span>
+        <span>Grupo @Jogo.Grupo</span>
+    </div>
+    <div class="lp-match-card__teams">
+        <div class="lp-match-team">
+            <img class="lp-match-team__flag" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@Jogo.CodigoMandante" alt="Bandeira de @Jogo.SelecaoMandante" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <span class="lp-match-team__name">@Jogo.SelecaoMandante</span>
+        </div>
+        <span class="lp-match-card__vs">×</span>
+        <div class="lp-match-team lp-match-team--away">
+            <img class="lp-match-team__flag" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@Jogo.CodigoVisitante" alt="Bandeira de @Jogo.SelecaoVisitante" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <span class="lp-match-team__name">@Jogo.SelecaoVisitante</span>
+        </div>
+    </div>
+    <div class="lp-match-card__footer">
+        <span>@Jogo.Estadio</span>
+        <span>@Jogo.Cidade</span>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public JogoDto Jogo { get; set; } = null!;
+}

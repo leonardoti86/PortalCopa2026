@@ -1,0 +1,101 @@
+@page "/selecoes"
+@rendermode InteractiveServer
+@inject ISelecaoService SelecaoService
+
+<PageTitle>Seleções — PortalCopa26</PageTitle>
+
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Seleções</h2>
+            <p>As 48 seleções classificadas para a Copa do Mundo FIFA 2026. Busque por nome ou filtre por grupo.</p>
+        </div>
+
+        @if (_todasSelecoes.Count == 0)
+        {
+            <div class="lp-empty-state">
+                <p>Carregando seleções...</p>
+            </div>
+        }
+        else
+        {
+            <FiltroSelecao Grupos="_grupos" Busca="@_busca" BuscaChanged="OnBuscaChangedAsync"
+                           GrupoSelecionado="@_grupoSelecionado" GrupoSelecionadoChanged="OnGrupoSelecionadoChangedAsync" />
+
+            @if (_selecoesFiltradas.Count == 0)
+            {
+                <div class="lp-empty-state">
+                    <p>Nenhuma seleção encontrada.</p>
+                </div>
+            }
+            else
+            {
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
+                    @foreach (var selecao in _selecoesFiltradas)
+                    {
+                        <div class="col">
+                            <CartaoSelecao Selecao="selecao" Selecionada="OnSelecaoSelecionadaAsync" />
+                        </div>
+                    }
+                </div>
+            }
+        }
+    </div>
+</section>
+
+<ModalSelecao Detalhe="_detalheSelecionado" Fechada="OnModalFechado" />
+
+@code {
+    private IReadOnlyList<SelecaoResumoDto> _todasSelecoes = Array.Empty<SelecaoResumoDto>();
+    private IReadOnlyList<string> _grupos = Array.Empty<string>();
+    private IReadOnlyList<SelecaoResumoDto> _selecoesFiltradas = Array.Empty<SelecaoResumoDto>();
+    private string _busca = string.Empty;
+    private string? _grupoSelecionado;
+    private SelecaoDetalheDto? _detalheSelecionado;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _todasSelecoes = await SelecaoService.ObterListagemAsync();
+        _grupos = _todasSelecoes
+            .Select(s => s.GrupoCodigo)
+            .Distinct()
+            .OrderBy(g => g, StringComparer.Ordinal)
+            .ToList();
+
+        AtualizarSelecoesFiltradas();
+    }
+
+    private Task OnBuscaChangedAsync(string busca)
+    {
+        _busca = busca;
+        AtualizarSelecoesFiltradas();
+        return Task.CompletedTask;
+    }
+
+    private Task OnGrupoSelecionadoChangedAsync(string? grupo)
+    {
+        _grupoSelecionado = grupo;
+        AtualizarSelecoesFiltradas();
+        return Task.CompletedTask;
+    }
+
+    private void AtualizarSelecoesFiltradas()
+    {
+        var termo = _busca.Trim();
+
+        _selecoesFiltradas = _todasSelecoes
+            .Where(s => _grupoSelecionado is null || s.GrupoCodigo == _grupoSelecionado)
+            .Where(s => termo.Length == 0 || s.Nome.Contains(termo, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+
+    private async Task OnSelecaoSelecionadaAsync(int selecaoId)
+    {
+        _detalheSelecionado = await SelecaoService.ObterDetalheAsync(selecaoId);
+    }
+
+    private void OnModalFechado()
+    {
+        _detalheSelecionado = null;
+    }
+}
