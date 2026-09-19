@@ -70,6 +70,16 @@ public class AppDbContext : DbContext
                 .WithMany()
                 .HasForeignKey(j => j.SelecaoVisitanteId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            entity.HasOne(j => j.JogoOrigemMandante)
+                .WithMany()
+                .HasForeignKey(j => j.JogoOrigemMandanteId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            entity.HasOne(j => j.JogoOrigemVisitante)
+                .WithMany()
+                .HasForeignKey(j => j.JogoOrigemVisitanteId)
+                .OnDelete(DeleteBehavior.Restrict);
         });
 
         modelBuilder.Entity<RankingFifa>(entity =>

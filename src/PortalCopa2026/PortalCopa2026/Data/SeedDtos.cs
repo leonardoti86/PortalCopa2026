@@ -54,6 +54,57 @@ internal class PlayerSeedDto
     public int Goals { get; set; }
 }
 
+internal class SegundaFaseMatchSeedDto
+{
+    [JsonPropertyName("order")]
+    public int Order { get; set; }
+
+    [JsonPropertyName("date")]
+    public string Date { get; set; } = string.Empty;
+
+    [JsonPropertyName("time")]
+    public string Time { get; set; } = string.Empty;
+
+    [JsonPropertyName("home")]
+    public string Home { get; set; } = string.Empty;
+
+    [JsonPropertyName("away")]
+    public string Away { get; set; } = string.Empty;
+
+    [JsonPropertyName("city")]
+    public string City { get; set; } = string.Empty;
+
+    [JsonPropertyName("stadium")]
+    public string Stadium { get; set; } = string.Empty;
+}
+
+// Contrato de jogo eliminatório sem seleção fixa, apenas com referência a dois jogos de origem.
+// Reutilizado pelas Oitavas, Quartas e Semifinais (renomeado de OitavasMatchSeedDto - design.md,
+// criar-jogos-quartas-semifinais, Decisão 1).
+internal class MataMataMatchSeedDto
+{
+    [JsonPropertyName("order")]
+    public int Order { get; set; }
+
+    [JsonPropertyName("date")]
+    public string Date { get; set; } = string.Empty;
+
+    [JsonPropertyName("time")]
+    public string Time { get; set; } = string.Empty;
+
+    [JsonPropertyName("city")]
+    public string City { get; set; } = string.Empty;
+
+    [JsonPropertyName("stadium")]
+    public string Stadium { get; set; } = string.Empty;
+
+    [JsonPropertyName("homeSourceOrder")]
+    public int HomeSourceOrder { get; set; }
+
+    [JsonPropertyName("awaySourceOrder")]
+    public int AwaySourceOrder { get; set; }
+}
+
 internal class MatchSeedDto
 {
     [JsonPropertyName("phase")]

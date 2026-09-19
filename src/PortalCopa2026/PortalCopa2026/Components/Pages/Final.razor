@@ -1,0 +1,62 @@
+@page "/final"
+@rendermode InteractiveServer
+@using PortalCopa2026.Components.Pages.FaseEliminatoria
+@using PortalCopa2026.Data
+@using PortalCopa2026.Services.FinalCopa
+@using PortalCopa2026.Services.FinalCopa.Dtos
+@inject IFinalCopaService FinalCopaService
+
+<PageTitle>Final — PortalCopa26</PageTitle>
+
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Final da Copa do Mundo</h2>
+        </div>
+
+        @if (_dados is null)
+        {
+            <div class="lp-empty-state">
+                <p>Carregando jogos...</p>
+            </div>
+        }
+        else
+        {
+            @if (_dados.Campeao is not null)
+            {
+                <CampeaoDestaque Campeao="_dados.Campeao" />
+            }
+
+            <div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
+                <div class="col">
+                    <img class="lp-estadio-foto" src="@FotosEstadiosFinal.FotoTerceiroLugar"
+                         alt="Foto do estádio @_dados.TerceiroLugar.Estadio" loading="lazy"
+                         onerror="this.style.display='none'" />
+                    <FaseEliminatoriaJogoCard Jogo="_dados.TerceiroLugar" TituloJogo="Disputa de Terceiro Lugar" PlacarAlterado="OnPlacarAlteradoAsync" />
+                </div>
+                <div class="col">
+                    <img class="lp-estadio-foto" src="@FotosEstadiosFinal.FotoFinal"
+                         alt="Foto do estádio @_dados.Final.Estadio" loading="lazy"
+                         onerror="this.style.display='none'" />
+                    <FaseEliminatoriaJogoCard Jogo="_dados.Final" TituloJogo="Final" PlacarAlterado="OnPlacarAlteradoAsync" />
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+@code {
+    private FinalCopaDto? _dados;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _dados = await FinalCopaService.ObterAsync();
+    }
+
+    private async Task OnPlacarAlteradoAsync((int JogoId, int? PlacarMandante, int? PlacarVisitante, int? PlacarPenaltisMandante, int? PlacarPenaltisVisitante) alteracao)
+    {
+        _dados = await FinalCopaService.AtualizarPlacarOficialAsync(
+            alteracao.JogoId, alteracao.PlacarMandante, alteracao.PlacarVisitante,
+            alteracao.PlacarPenaltisMandante, alteracao.PlacarPenaltisVisitante);
+    }
+}

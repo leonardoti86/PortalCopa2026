@@ -1,0 +1,74 @@
+[
+  {
+    "order": 1,
+    "date": "2026-07-04",
+    "time": "18:00",
+    "city": "Filadélfia",
+    "stadium": "Lincoln Financial Field",
+    "homeSourceOrder": 1,
+    "awaySourceOrder": 2
+  },
+  {
+    "order": 2,
+    "date": "2026-07-04",
+    "time": "14:00",
+    "city": "Houston",
+    "stadium": "NRG Stadium",
+    "homeSourceOrder": 3,
+    "awaySourceOrder": 4
+  },
+  {
+    "order": 3,
+    "date": "2026-07-06",
+    "time": "16:00",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium",
+    "homeSourceOrder": 5,
+    "awaySourceOrder": 6
+  },
+  {
+    "order": 4,
+    "date": "2026-07-06",
+    "time": "21:00",
+    "city": "Seattle",
+    "stadium": "Lumen Field",
+    "homeSourceOrder": 7,
+    "awaySourceOrder": 8
+  },
+  {
+    "order": 5,
+    "date": "2026-07-05",
+    "time": "17:00",
+    "city": "Nova York/Nova Jersey",
+    "stadium": "MetLife Stadium",
+    "homeSourceOrder": 9,
+    "awaySourceOrder": 10
+  },
+  {
+    "order": 6,
+    "date": "2026-07-05",
+    "time": "21:00",
+    "city": "Cidade do México",
+    "stadium": "Estádio Azteca",
+    "homeSourceOrder": 11,
+    "awaySourceOrder": 12
+  },
+  {
+    "order": 7,
+    "date": "2026-07-07",
+    "time": "13:00",
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium",
+    "homeSourceOrder": 13,
+    "awaySourceOrder": 14
+  },
+  {
+    "order": 8,
+    "date": "2026-07-07",
+    "time": "17:00",
+    "city": "Vancouver",
+    "stadium": "BC Place",
+    "homeSourceOrder": 15,
+    "awaySourceOrder": 16
+  }
+]

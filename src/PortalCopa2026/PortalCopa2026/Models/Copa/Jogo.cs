@@ -22,4 +22,18 @@ public class Jogo
     // Resultado oficial da fase de grupos, distinto do placar simulado (SimulacaoJogo). Nulo até ser registrado.
     public int? PlacarMandante { get; set; }
     public int? PlacarVisitante { get; set; }
+
+    // Usado apenas para desempatar um jogo eliminatório empatado no placar oficial (nunca pode haver empate nessas fases).
+    public int? PlacarPenaltisMandante { get; set; }
+    public int? PlacarPenaltisVisitante { get; set; }
+
+    // Número oficial do jogo dentro da fase eliminatória (ex.: "Segundafase 7"). Nulo na fase de grupos.
+    public int? Ordem { get; set; }
+
+    // Jogo de origem cujo vencedor ocupa este lado, quando a seleção ainda não é conhecida (mutuamente exclusivo com SelecaoMandanteId).
+    public int? JogoOrigemMandanteId { get; set; }
+    public Jogo? JogoOrigemMandante { get; set; }
+
+    public int? JogoOrigemVisitanteId { get; set; }
+    public Jogo? JogoOrigemVisitante { get; set; }
 }

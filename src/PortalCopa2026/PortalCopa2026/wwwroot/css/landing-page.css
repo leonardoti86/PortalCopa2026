@@ -254,3 +254,97 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/* --------------------------------- Página Final --------------------------------- */
+.lp-estadio-foto {
+    display: block;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: var(--lp-radius);
+    margin-bottom: 8px;
+}
+
+.campeao-destaque {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 32px 16px;
+    margin-bottom: 24px;
+    border-radius: var(--lp-radius);
+    background: linear-gradient(135deg, #f2b705 0%, #f7d774 60%, #f2b705 100%);
+    box-shadow: var(--lp-shadow);
+}
+
+.campeao-destaque__taca {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--lp-color-navy);
+}
+
+.campeao-destaque__bandeira {
+    display: block;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin: 12px auto;
+    box-shadow: var(--lp-shadow);
+}
+
+.campeao-destaque__subtitulo {
+    margin: 0;
+    font-weight: 600;
+    color: var(--lp-color-navy);
+}
+
+.campeao-destaque__nome {
+    margin: 4px 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--lp-color-navy);
+}
+
+.campeao-destaque__titulos {
+    margin: 0;
+    color: var(--lp-color-navy);
+}
+
+.campeao-destaque__confete {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.campeao-destaque__confete-item {
+    position: absolute;
+    top: -12px;
+    width: 8px;
+    height: 14px;
+    opacity: 0.85;
+    animation-name: campeao-destaque-cair;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Uma única queda (não contínua): confete é um efeito de entrada, não uma chuva perpétua. */
+@keyframes campeao-destaque-cair {
+    from {
+        transform: translateY(-20px) rotate(0deg);
+        opacity: 0.85;
+    }
+
+    to {
+        transform: translateY(340px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .campeao-destaque__confete-item {
+        animation: none;
+        display: none;
+    }
+}

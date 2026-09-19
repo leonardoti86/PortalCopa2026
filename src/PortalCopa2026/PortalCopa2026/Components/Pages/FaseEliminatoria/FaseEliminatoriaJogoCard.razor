@@ -1,0 +1,141 @@
+@using PortalCopa2026.Services.FaseEliminatoria.Dtos
+
+<div class="lp-match-card">
+    <div class="lp-match-card__meta">
+        <span>@Jogo.Data.ToString("dd/MM") · @Jogo.Horario.ToString("HH:mm") (Brasília)</span>
+        <span>@(TituloJogo ?? $"Jogo {Jogo.Ordem}")</span>
+    </div>
+
+    <div class="sim-jogo__time">
+        @if (Jogo.SelecaoMandante is not null)
+        {
+            <img class="sim-jogo__bandeira" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@Jogo.CodigoMandante" alt="Bandeira de @Jogo.SelecaoMandante" loading="lazy" onerror="this.style.visibility='hidden'" />
+            <span class="sim-jogo__nome">@Jogo.SelecaoMandante</span>
+        }
+        else
+        {
+            <span class="sim-jogo__nome fst-italic text-body-secondary">@Jogo.OrigemMandanteRotulo</span>
+        }
+    </div>
+
+    <div class="sim-jogo__placares">
+        <input type="number" min="0" max="30" class="form-control form-control-sm sim-jogo__input"
+               value="@_placarMandante" @onchange="OnPlacarMandanteChanged" disabled="@(!PlacarHabilitado)"
+               aria-label="Placar de @(Jogo.SelecaoMandante ?? "mandante")" />
+        <span class="sim-jogo__separador">×</span>
+        <input type="number" min="0" max="30" class="form-control form-control-sm sim-jogo__input"
+               value="@_placarVisitante" @onchange="OnPlacarVisitanteChanged" disabled="@(!PlacarHabilitado)"
+               aria-label="Placar de @(Jogo.SelecaoVisitante ?? "visitante")" />
+    </div>
+
+    <div class="sim-jogo__time sim-jogo__time--visitante">
+        @if (Jogo.SelecaoVisitante is not null)
+        {
+            <span class="sim-jogo__nome">@Jogo.SelecaoVisitante</span>
+            <img class="sim-jogo__bandeira" src="https://api.fifa.com/api/v3/picture/flags-sq-4/@Jogo.CodigoVisitante" alt="Bandeira de @Jogo.SelecaoVisitante" loading="lazy" onerror="this.style.visibility='hidden'" />
+        }
+        else
+        {
+            <span class="sim-jogo__nome fst-italic text-body-secondary">@Jogo.OrigemVisitanteRotulo</span>
+        }
+    </div>
+
+    @if (_placarMandante is not null && _placarVisitante is not null && _placarMandante == _placarVisitante)
+    {
+        <div class="sim-jogo__placares">
+            <span class="small text-body-secondary">Pênaltis</span>
+            <input type="number" min="0" max="30" class="form-control form-control-sm sim-jogo__input"
+                   value="@_placarPenaltisMandante" @onchange="OnPlacarPenaltisMandanteChanged"
+                   aria-label="Pênaltis de @(Jogo.SelecaoMandante ?? "mandante")" />
+            <span class="sim-jogo__separador">×</span>
+            <input type="number" min="0" max="30" class="form-control form-control-sm sim-jogo__input"
+                   value="@_placarPenaltisVisitante" @onchange="OnPlacarPenaltisVisitanteChanged"
+                   aria-label="Pênaltis de @(Jogo.SelecaoVisitante ?? "visitante")" />
+        </div>
+    }
+
+    <div class="lp-match-card__footer">
+        <span>@Jogo.Estadio</span>
+        <span>@Jogo.Cidade</span>
+    </div>
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public FaseEliminatoriaJogoDto Jogo { get; set; } = null!;
+
+    // Substitui o texto padrão "Jogo @Ordem" do cabeçalho quando informado - usado pela página
+    // Final para rotular os dois cards ("Disputa de Terceiro Lugar" / "Final") em vez de exibir
+    // "Jogo 1" duas vezes (ambos têm Ordem = 1 dentro da própria Fase) - design.md
+    // (criar-jogo-teceiro-lugar-final) - Decisão 1.
+    [Parameter]
+    public string? TituloJogo { get; set; }
+
+    [Parameter]
+    public EventCallback<(int JogoId, int? PlacarMandante, int? PlacarVisitante, int? PlacarPenaltisMandante, int? PlacarPenaltisVisitante)> PlacarAlterado { get; set; }
+
+    private int? _placarMandante;
+    private int? _placarVisitante;
+    private int? _placarPenaltisMandante;
+    private int? _placarPenaltisVisitante;
+    private int _jogoIdCarregado = -1;
+
+    private bool PlacarHabilitado => Jogo.SelecaoMandante is not null && Jogo.SelecaoVisitante is not null;
+
+    protected override void OnParametersSet()
+    {
+        // Só re-sincroniza com o valor vindo do servidor quando o jogo exibido muda de fato,
+        // mesmo padrão de GrupoJogo.razor.
+        if (Jogo.JogoId != _jogoIdCarregado)
+        {
+            _placarMandante = Jogo.PlacarMandante;
+            _placarVisitante = Jogo.PlacarVisitante;
+            _placarPenaltisMandante = Jogo.PlacarPenaltisMandante;
+            _placarPenaltisVisitante = Jogo.PlacarPenaltisVisitante;
+            _jogoIdCarregado = Jogo.JogoId;
+        }
+    }
+
+    private Task OnPlacarMandanteChanged(ChangeEventArgs e)
+    {
+        _placarMandante = ParsePlacar(e.Value);
+        return NotificarAlteracaoAsync();
+    }
+
+    private Task OnPlacarVisitanteChanged(ChangeEventArgs e)
+    {
+        _placarVisitante = ParsePlacar(e.Value);
+        return NotificarAlteracaoAsync();
+    }
+
+    private Task OnPlacarPenaltisMandanteChanged(ChangeEventArgs e)
+    {
+        _placarPenaltisMandante = ParsePlacar(e.Value);
+        return NotificarAlteracaoAsync();
+    }
+
+    private Task OnPlacarPenaltisVisitanteChanged(ChangeEventArgs e)
+    {
+        _placarPenaltisVisitante = ParsePlacar(e.Value);
+        return NotificarAlteracaoAsync();
+    }
+
+    private static int? ParsePlacar(object? valor)
+    {
+        var texto = valor?.ToString();
+        return int.TryParse(texto, out var numero) && numero >= 0 ? numero : null;
+    }
+
+    private Task NotificarAlteracaoAsync()
+    {
+        // Um jogo eliminatório nunca pode terminar empatado nos pênaltis - não notifica o
+        // componente pai enquanto o usuário não corrigir (design.md - Decisão 6).
+        if (_placarPenaltisMandante is not null && _placarPenaltisVisitante is not null
+            && _placarPenaltisMandante == _placarPenaltisVisitante)
+        {
+            return Task.CompletedTask;
+        }
+
+        return PlacarAlterado.InvokeAsync((Jogo.JogoId, _placarMandante, _placarVisitante, _placarPenaltisMandante, _placarPenaltisVisitante));
+    }
+}

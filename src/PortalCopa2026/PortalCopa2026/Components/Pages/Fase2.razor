@@ -1,0 +1,53 @@
+@page "/fase2"
+@rendermode InteractiveServer
+@using PortalCopa2026.Components.Pages.FaseEliminatoria
+@using PortalCopa2026.Services.FaseEliminatoria
+@using PortalCopa2026.Services.FaseEliminatoria.Dtos
+@inject IFaseEliminatoriaService FaseEliminatoriaService
+
+<PageTitle>Segunda Fase — PortalCopa26</PageTitle>
+
+<section class="lp-section">
+    <div class="container">
+        <div class="lp-section-title">
+            <h2>Segunda Fase</h2>
+            <p>16 jogos · Copa do Mundo FIFA 2026</p>
+        </div>
+
+        @if (_jogos is null)
+        {
+            <div class="lp-empty-state">
+                <p>Carregando jogos...</p>
+            </div>
+        }
+        else
+        {
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mb-4">
+                @foreach (var jogo in _jogos)
+                {
+                    <div class="col">
+                        <FaseEliminatoriaJogoCard Jogo="jogo" PlacarAlterado="OnPlacarAlteradoAsync" />
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</section>
+
+@code {
+    private IReadOnlyList<FaseEliminatoriaJogoDto>? _jogos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _jogos = await FaseEliminatoriaService.ObterSegundaFaseAsync();
+    }
+
+    private async Task OnPlacarAlteradoAsync((int JogoId, int? PlacarMandante, int? PlacarVisitante, int? PlacarPenaltisMandante, int? PlacarPenaltisVisitante) alteracao)
+    {
+        await FaseEliminatoriaService.AtualizarPlacarOficialAsync(
+            alteracao.JogoId, alteracao.PlacarMandante, alteracao.PlacarVisitante,
+            alteracao.PlacarPenaltisMandante, alteracao.PlacarPenaltisVisitante);
+
+        _jogos = await FaseEliminatoriaService.ObterSegundaFaseAsync();
+    }
+}

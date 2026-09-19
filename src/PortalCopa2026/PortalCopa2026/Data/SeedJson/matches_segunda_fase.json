@@ -1,0 +1,146 @@
+[
+  {
+    "order": 1,
+    "date": "2026-06-29",
+    "time": "17:30",
+    "home": "Alemanha",
+    "away": "Paraguai",
+    "city": "Boston",
+    "stadium": "Gillette Stadium"
+  },
+  {
+    "order": 2,
+    "date": "2026-06-30",
+    "time": "18:00",
+    "home": "França",
+    "away": "Suécia",
+    "city": "Nova York/Nova Jersey",
+    "stadium": "MetLife Stadium"
+  },
+  {
+    "order": 3,
+    "date": "2026-06-28",
+    "time": "16:00",
+    "home": "África do Sul",
+    "away": "Canadá",
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "order": 4,
+    "date": "2026-06-29",
+    "time": "22:00",
+    "home": "Holanda",
+    "away": "Marrocos",
+    "city": "Monterrey",
+    "stadium": "Estadio BBVA"
+  },
+  {
+    "order": 5,
+    "date": "2026-07-02",
+    "time": "20:00",
+    "home": "Portugal",
+    "away": "Croácia",
+    "city": "Toronto",
+    "stadium": "BMO Field"
+  },
+  {
+    "order": 6,
+    "date": "2026-07-02",
+    "time": "16:00",
+    "home": "Espanha",
+    "away": "Áustria",
+    "city": "Los Angeles",
+    "stadium": "SoFi Stadium"
+  },
+  {
+    "order": 7,
+    "date": "2026-07-01",
+    "time": "21:00",
+    "home": "Estados Unidos",
+    "away": "Bósnia e Herzegovina",
+    "city": "Santa Clara",
+    "stadium": "Levi's Stadium"
+  },
+  {
+    "order": 8,
+    "date": "2026-07-01",
+    "time": "17:00",
+    "home": "Bélgica",
+    "away": "Senegal",
+    "city": "Seattle",
+    "stadium": "Lumen Field"
+  },
+  {
+    "order": 9,
+    "date": "2026-06-29",
+    "time": "14:00",
+    "home": "Brasil",
+    "away": "Japão",
+    "city": "Houston",
+    "stadium": "NRG Stadium"
+  },
+  {
+    "order": 10,
+    "date": "2026-06-30",
+    "time": "14:00",
+    "home": "Côte d'Ivoire",
+    "away": "Noruega",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "order": 11,
+    "date": "2026-06-30",
+    "time": "22:00",
+    "home": "México",
+    "away": "Equador",
+    "city": "Cidade do México",
+    "stadium": "Estádio Azteca"
+  },
+  {
+    "order": 12,
+    "date": "2026-07-01",
+    "time": "13:00",
+    "home": "Inglaterra",
+    "away": "República Democrática do Congo",
+    "city": "Atlanta",
+    "stadium": "Mercedes-Benz Stadium"
+  },
+  {
+    "order": 13,
+    "date": "2026-07-03",
+    "time": "19:00",
+    "home": "Argentina",
+    "away": "Cabo Verde",
+    "city": "Miami",
+    "stadium": "Hard Rock Stadium"
+  },
+  {
+    "order": 14,
+    "date": "2026-07-03",
+    "time": "15:00",
+    "home": "Austrália",
+    "away": "Egito",
+    "city": "Dallas",
+    "stadium": "AT&T Stadium"
+  },
+  {
+    "order": 15,
+    "date": "2026-07-03",
+    "time": "00:00",
+    "home": "Suíça",
+    "away": "Argélia",
+    "city": "Vancouver",
+    "stadium": "BC Place"
+  },
+  {
+    "order": 16,
+    "date": "2026-07-03",
+    "time": "22:30",
+    "home": "Colômbia",
+    "away": "Gana",
+    "city": "Kansas City",
+    "stadium": "Arrowhead Stadium"
+  }
+]

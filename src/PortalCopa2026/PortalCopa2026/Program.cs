@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using PortalCopa2026.Components;
 using PortalCopa2026.Data;
+using PortalCopa2026.Services.FaseEliminatoria;
+using PortalCopa2026.Services.FinalCopa;
 using PortalCopa2026.Services.Grupos;
 using PortalCopa2026.Services.Jogos;
 using PortalCopa2026.Services.LandingPage;
@@ -26,6 +28,8 @@ builder.Services.AddScoped<IGruposService, GruposService>();
 builder.Services.AddScoped<ISimuladorService, SimuladorService>();
 builder.Services.AddScoped<ISelecaoService, SelecaoService>();
 builder.Services.AddScoped<IRankingService, RankingService>();
+builder.Services.AddScoped<IFaseEliminatoriaService, FaseEliminatoriaService>();
+builder.Services.AddScoped<IFinalCopaService, FinalCopaService>();
 
 var app = builder.Build();
 
